@@ -1,0 +1,123 @@
+@import url('https://fontlibrary.org/face/orkney');
+
+html,
+body {
+  background: #021012;
+  font-family: 'OrkneyRegular';
+  margin: 1em auto;
+  max-width: 40em;
+  padding: 0 0.62em;
+  color: #f8f8ff;
+  font: 1.2em;
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+* {
+  -webkit-animation: fadein 1.5s;
+  -moz-animation: fadein 1.5s;
+  -ms-animation: fadein 1.5s;
+  -o-animation: fadein 1.5s;
+  animation: fadein 1.5s;
+}
+
+
+a {
+  color: #f8f8ff;
+  margin: 0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #021012;
+  background: magenta;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  text-decoration: underline;
+  text-decoration-color: magenta;
+  font-size: 1.5em;
+}
+
+h3 {
+  margin: 2px;
+  padding: 0;
+}
+
+p {
+  bottom: 2em;
+}
+
+blockquote {
+  background: #F8F8F8;
+  border-left: 10px solid magenta;
+  padding: 0.5em 8px;
+  margin: 0;
+  align: center;
+  quotes: "\201C""\201D""\2018""\2019";
+  color: #021012;
+}
+
+blockquote:before {
+  color: #021012;
+  font-size: 4em;
+  content: open-quote;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote:after {
+  content: close-quote;
+  color: #F8F8F8;
+}
+
+blockquote p a {
+  color: #021012;
+  font-size: 0.6em;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+  text-decoration-color: magenta;
+}
+
+.date {
+ color: magenta;
+}
+
+.citation {
+  text-decoration: underline;
+  text-decoration-color: magenta;
+}
+
+.link-list {
+  list-style-type: none;
+}
+
+#source-list li {
+  padding-bottom: 0.5em;
+}
+
+#source-list li span {
+  padding-right: 1em;
+}
+
+#source-list li a {
+}

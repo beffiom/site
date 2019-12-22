@@ -1,0 +1,211 @@
+@import url('https://fontlibrary.org/face/orkney');
+
+html,
+body {
+  background: #021012;
+  font-family: 'OrkneyRegular';
+  margin: 1em auto;
+  max-width: 40em;
+  padding: 0 0.62em;
+  color: #f8f8ff;
+  font: 1.2em;
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+* {
+  -webkit-animation: fadein 0.2s;
+  -moz-animation: fadein 0.2s;
+  -ms-animation: fadein 0.2s;
+  -o-animation: fadein 0.2s;
+  animation: fadein 0.2s;
+}
+
+header {
+  position: absolute;
+  left: 50%;
+  transform: translate(-70%, -0%);
+  font-size: 4em;
+}
+
+nav {
+  margin-bottom: 2.5em;
+  list-style-type: none;
+  text-align: center;
+  margin-left: 15em;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li a {
+}
+
+a {
+  color: #f8f8ff;
+  margin: 0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #021012;
+  background: magenta;
+}
+
+h2 {
+  text-decoration: underline;
+  text-decoration-color: magenta;
+}
+
+h3 {
+  margin: 2px;
+  padding: 0;
+}
+
+p {
+  bottom: 2em;
+  margin-top: 0;
+}
+
+ol li {
+  bottom: 2em;
+  margin-top: 0;
+}
+
+#title {
+  text-align: center;
+  font-size: 2em;
+}
+
+#subtitle {
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 0;
+}
+
+.buttons {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.buttons li {
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid magenta;
+}
+
+.buttons li:hover {
+  background-color: magenta;
+}
+
+#center-b {
+  text-align: center;
+}
+
+#tags {
+  font-size: 0.75em;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+blockquote {
+  background: #F8F8F8;
+  border-left: 10px solid magenta;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  align: center;
+  quotes: "\201C""\201D""\2018""\2019";
+  color: #021012;
+}
+
+blockquote:before {
+  color: #021012;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p a {
+  color: #021012;
+  font-size: 0.6em;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+  text-decoration-color: magenta;
+}
+
+#fav-tab {
+  background: magenta;
+}
+
+#fav-tab a {
+  color: #021012;
+}
+
+.fav-list {
+  list-style-type: none;
+}
+
+.fav-list li {
+  padding-bottom: 0.5em;
+}
+
+.fav-list li a {
+  color: magenta;
+  background: #330033;
+}
+
+.fav-list li a:hover {
+  color: #021012;
+  background: magenta;
+}
+
+.post {
+  float: left;
+}
+
+content div {
+  padding-bottom: 0.5em;
+}
+
+.date {
+  color: magenta;
+  background: #330033;
+  float: right;
+}
+
+.book-item {
+  margin-bottom: 3em;
+  height: 12em;
+}
+
+.book-item img {
+  vertical-align: top;
+  height: 12em;
+  width: 8em;
+  position: absolute;
+}
+
+.book-item p {
+  vertical-align: top;
+  padding-left: 9em;
+}
+
+
