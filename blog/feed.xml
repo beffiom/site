@@ -8,7 +8,284 @@
   <item>
     <title>social media bad</title>
     <link>https://beffiom.github.io/site/blog/social-media-bad.html</link>
-    <description>refusing to use social media</description>
+    <description>
+	<h2 id="attention-economy">Introduction</h2>
+	<p>
+	Hating social media is nothing new.
+	</p>
+
+	<p>
+	It's been integrated into the foundations of modern life in less than 15 years despite the detractors at every step. In hindsight, these detractors had good reason to be skeptical. We've allowed this before understanding the impact that it has on ourselves or broader society. With many a new technology, we often enthusiastically incorporate it into our lives while only focusing on its positive aspects. We should recognize that technology often has severe and lasting political, social, and economic implications and tame our haste before adopting new ones.
+	</p>
+
+	<p>
+	In this article, I'll address these implications by discussing the harms of social media.
+	</p>
+
+	<h2 id="attention-economy">The Digital Attention Economy</h2>
+	<p>
+	All the economists in Silicon Valley are talking about it; the idea that you can make money simply by attracting (or distracting) people's attention. Not only can you make money, you can create some of the most profitable businesses in human history.
+	</p>
+
+	<p>
+	The Digital Attention Economy revolves around industries that make money via advertisements, such as social media. Based on this, how would a company operating on this model seek to increase revenue? They could either attract more users or encourage existing users to use their service for longer periods of time. But they come to a roadblock. They realize that their service will eventually experience diminishing returns after a period of prolonged use, but they want to attract users for longer times, regardless. Well, they hire masters and doctorate level psychologists who understand and can exploit human addiction through feedback loops or slot-machine style hits of dopamine by quantifying social interaction via likes, shares, and comments (see more in the <a href="#upcummies" class="citation">Upcummies</a> section). This is a fundamental distinction from earlier technologies. Rarely did technologies of the past have a financial incentive to keep users engaged as long as possible. Makers of a toaster or refrigerator really do not care how users use their products. Their primary mode of revenue is made at the point of sale. They just want the product off the shelf. This same observation is true of consumer goods such as clothes, books, or video games. However, with the advent of certain forms of media, namely television and radio, stations began realizing that the price of advertisements will go up depending on the number of viewers or listeners and how long each user was engaged. Before the internet, the latter metric was not easily understood. Gathering information about how television viewers or radio listeners used the product was difficult and often costly and time-consuming with them having to recieve feedback via polls. The internet made this easy.
+	</p>
+
+	<p>
+	With just a couple lines of JavaScript connected to a backend database and probed with data analytics software, companies could now quite easily measure not only the number of users, but also how long the average user spent on the site and what specifically they were looking at. This is the sort of information that sees the value of advertisements skyrocket. But there was still a natural limitation to this.
+	</p>
+
+	<p>
+	Taking a desktop with you everywhere was entirely impractical. This created a physical and social barrier restricting the amount of time a user could spend interacting with any form of online content. In the years since the 2007 launch of the iPhone, smartphones have absolutely demolished this barrier. We can connect to the internet anywhere at anytime. In bed. In waiting rooms. During meetings. During class. During commutes. On the toilet. Anywhere at anytime. I recognize that many will argue that this breakthrough has made their lives easier, but the saying 'with great power comes great responsibility' rings as true as ever in this case. The harmful side effect of this tremendous power is that for the first time, companies have a profit motive in wasting your time and unlimited means to actually do so.
+	</p>
+
+	<p>
+	Welcome to the Digital Attention Economy <a target="_blank" href="https://www.nngroup.com/articles/attention-economy/" class="citation">[1]</a>.
+	</p>
+
+	<p>
+	More to this point, in his book 'Digital Minimalism', Cal Newport explains that the users who get the most out of technology are the ones who use it the least. This is because Digital Minimalists take the time to analyze each service and make the decision on whether or not to add it into their lives based on the values they hold. They are willing to weigh the risks and rewards and positives and negatives of each service. As a result, they realize they can maximize the rewards of technology while minimizing the risks, often by decreasing the time spent using them. For most Digital Minimalists who value their time, they end up setting strict rules and limitations about social media use or they abstain from using it altogther. This is the case because these apps are designed to suck your attention and waste your time.
+	</p>
+
+
+	<h2 id="advertisements">Advertisements</h2>
+	<blockquote><em>Senator, we run ads</em></blockquote>
+	<p>
+	Facebook CEO Mark Zuckerburg plainly states in a 2018 Senate Committee Hearing <a target="_blank" href="https://invidio.us/watch?v=n2H8wx1aBiQ" class="citation">[2]</a>. Yes, their business model is in selling advertisements. More specifically it's:
+	</p>
+
+	<ol>
+	   <li>Collect as much user data as possible</li>
+	   <li>Use this data to sell highly-lucrative, highly-targeted ads</li>
+	   <li>Increase the time users spend using their service exponentially increasing the revenue generated by these ads</li>
+	</ol>
+
+	<p>
+	Now, contrast this with your expectations as a user. You just wanna talk with your friends or maybe stay up to date with their lives, but you certainly have no intention to spend in excess of 4-5 hours a day on your phone using social media. The business model, and primary goal, of social media companies is to get you to view their content as long as possible. They even exploit many vulnerabilities in our psychology to accomplish this. These two goals are in direct opposition. Their goals have little to do with serving a market need or providing value to users. Their goals have little to do with connecting people, which is how many social media companies market themselves. This is simply about generating profit with little to no concern for the wellbeing of their users (more on this later).
+	</p>
+
+	<p>
+	As previously stated, those who make the most of technology are the ones who take the time compare the values of the technology with values of their own. One value that I hold is that I am very much against our culture of <a target="_blank" href="https://en.wikipedia.org/wiki/Conspicuous_consumption" class="citation">conspicious consumption</a>. As a result, I do not like ads. Fundamentally, I believe that less can be more, especially when it comes to our material possessions.
+	</p>
+
+	<p>
+	Ads are designed to sell products. I don't want to be sold any products as I am very content with what I already own. If I truly need something, it will become apparent and I will seek it out myself. The people who design these ads know that people need very little and inherently want little more than that. Thus, marketers employ various techniques taking advantage of our psychological vulnerabilities to convince us that we really want something, or that a product is even necessary. And it often works but not without its effects on the quality of our lives.
+
+	<p>
+	A 2012 BYU meta-analysis of 47 studies observing the relation between materialism and well-being concluded that "materialism was significantly related to lower psychological well-being" and "it appears that valuing money (and material goods) is a consistent way to diminish happiness" <a target="_blank" href="https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=4863&context=etd" class="citation">[3]</a>.
+	</p>
+
+	<p>
+	"It stands to reason that this will become an increasingly pervasive problem as the technology makes it easier for individuals to see what they could have, 'if only.'," the findings continue.
+	</p>
+
+	<p>
+	This superficial lust for more and more and bigger and better things sets a constantly moving target that is often unreachable. It even distracts us from taking the necessary time to express gratitude for all that we already have. This is just one reason many of us are so discontent with our lives.
+	</p>
+
+	<p>
+	"But ads don't affect me," you might say. Perhaps you are, in fact, truly an anomaly or even a Buddhist monk of sorts who has learned to master and control your willpower. But, generally speaking, ads influence consumer behavior. If this were not the case then social media companies would not have become some of the most profitable businesses in human history as their entire business models revolve around advertisements.
+	</p>
+
+	<h2 id="upcummies">Upcummies and Their Consequences</h2>
+	<blockquote>
+	   <p><em>The tycoons of social media have to stop pretending that they're friendly nerd gods building a better world and admit they're just tobacco farmers in T-shirts selling an addictive product to children. Because let's face it, checking your "likes" is the new smoking.</em></p>
+	   <p><b>Bill Maher</b><br><a target="_blank" href="https://invidio.us/watch?v=BYDwep9yI8A" font-size="0.5em">New Rule: Social Media is the New Nicotine</a></p>
+	</blockquote>
+
+	<p>
+	So far, I have explained that social media companies have a financial interest in distracting people and forming addictions. Now, I will shift gears and explain how the addiction mechanisms work and the harmful consequences that prolonged social media use has on our mental well-being.
+	</p>
+
+	<p>
+	"This thing is a slot machine", states Tristan Harris holding up a smartphone before Anderson Cooper on 60 Minutes <a target="_blank" href="https://invidio.us/watch?v=awAMTQZmvPE" class="citation">[4]</a>. Tristan Harris is a former Product Manager at Google and a graduate of Stanford University where he worked in BJ Fogg's Persuasive Technology Lab exploring how technology can be used to change the way people think and act. In this interview, he is specifically referring to the reward based model that social media companies employ to keep us constantly "checking in". Everytime we check our phones, we are playing a game.
+
+	<p>Did somebody post something interesting?</p>
+	<p>How many people liked my post?</p>
+	<p>How many messages do I have?</p>
+
+	<p>
+	When we see the reward we wanted, parts of the brain light up and we feel a hit of dopamine-the brain chemical associated with the motivational component of reward-motivated behavior. In this moment, we feel very good.
+	</p>
+
+	<p>
+	This is what we want when we check our phones and there's a good chance we may get it. This is one of the ways we get hooked and social media companies are engineering their products to exploit this. Likes, shares, and follows are just the main mechanism.
+	</p>
+
+	<p>
+	Instagram will also use delayed feedback where they withold notifications for a period and release them all at once to make the sensation when seeing the bigger number tied to your social interactions more pleasurable. Snapchat has a feature called streaks <a target="_blank" href="https://suntrics.com/tech-blogs/longest-snapchat-streak-a-brief-guide/#Snapchat_Streak_Emojis" class="citation">[5]</a> where they give users different features and emoji unlocks for friends who message eachother consistently for days in a row. They are sort of game-ifying the social experience to make their apps your preferred mode of social interaction. Harris goes on to explain the situation with Anderson Cooper.
+	</p>
+
+	<p>
+	Cooper: Is Silicon Valley programming apps or are they programming people?
+	</p>
+
+	<p>
+	Harris: They are programming people. There's always this narrative that technology's neutral. And it's up to us to choose how we use it. This is just not true... They want you to use it in particular ways and for long periods of time. Because that's how they make their money.
+	</p>
+
+	<p>
+	One of the most effective mechanisms are the metrics we are given to interact with people and content. These are likes, shares, comments, friends, and followers. If we make a post, this is what we crave. More likes and more shares indicate that we are doing something correct, people like us and people like what we are doing. These mechanisms reinforce our desire to be respected, liked, and acknowledged by others. However, this is a very dangerous game. We are quantifying social interaction itself and putting a number next to it. The consequences of this manifest differently on different platforms.
+	</p>
+
+
+	<h3>Instagram</h3>
+	<p>
+	For example, on a site like Instagram which revolves around images and "stories" where people document their lives, this mechanism results in feelings of inadeqaucy caused by the constant comparison of ourselves and our lives to those of our peers. Likes and followers serve as a metric to quantify how "well" we are doing socially. When we see someone on Instagram who seems to have a better life than us or is accomplishing more or has more likes or more followers, we naturally reflect on ourselves in a self destructive manner.
+	</p>
+
+	<p>What am I doing wrong?</p>
+	<p>Why haven't I been able to accomplish what they have?</p>
+	<p>Why am I so lazy?</p>
+	<p>Why am I so ugly?</p>
+
+	<p>
+	This encouraged comparison of ourselves with others reinforced via quantified social interaction of the like button inevitably leads to feelings of inadequacy and it is a key trait of a site like Instagram.</p>
+
+	<h3>Reddit</h3>
+	<p>
+	A site like Reddit works in a similar manner, but the consequences of its like mechanism are very different. This is because Reddit is centered around the sharing of ideas rather than the sharing of photos and lifestyles. As I've explained, humans almost have a primal instinct to be liked and recognized by others.
+	</p>
+
+	<p>
+	On a site like Reddit, your ideas are what garner your approval and they are measured via the upvote button. Maybe you can already see where I'm going, but this problem is made even worse by the makeup of the site. Reddit is a forum style network where you're encouraged to follow "subreddits" or mini forums according to your interests. Coupled with the upvote system, this is a very dangerous setup when one mainly follows politically and ideologically based subreddits.
+	</p>
+
+	<p>The result is confirmation bias, groupthink, and radicalization.</p>
+
+	<p>
+	If you want to be liked, you're more likely to post a message that will be well received by a majority of the community. You want to be upvoted and you don't want to be downvoted. In order to do this, you must first understand what is the common opinion in the subreddit and then tailor your messages around this because you want likes. It's important to note that rarely is this a conscious action. Rather, this is what happens naturally due to our subconscious desire to be liked.
+	</p>
+
+	<p>
+	Over time, your beliefs begin to change and conform to that of the group. These communities and subreddits are what's known as echo chambers. This groupthink will eventually lead to radicalization as you're put in an environment where everyone agrees with one other and little dissent is found because nobody wants to be downvoted. These phenomena are also true of sites like Facebook and Twitter  but it's not as pronounced.
+	</p>
+
+	<h3>Facebook &amp; Twitter</h3>
+	<p>
+	Facebook and Twitter, however, are more dangerous for their ability to create manufactured outrage about current events. Overwhelmingly negative and depressing news events are heavily pushed and promoted on the two sites. Regardless of whether or not the events themselves have any effect on the readers' daily lives, increased consumption of such content will assuredly affect the way they view world - as a dark and dangerous place. This perception of the world will surely have an effect on their actions and how they live their lives. This is why I am not a fan of pushing this notion of an "informed populace" in its conventional sense.
+	</p>
+
+	<p>
+	Simply consuming a ton of information does not make one informed. Especially not when this news is from social media where targeted misinformation campaigns run rampant. Even if all of the information one consumed was completely accurate, I would still advise against seeking out as much information as possible. Similar to the Random Access Memory (RAM) and Random Object Memory (ROM) in our computers, our brains have a finite amount of information they can store and process in a given amount of time. When this limit is surpassed, information overload begins to take place. The internet allows us to receive information and news from any corner of the globe and it is too much to handle. Information overload is the difficulty in understanding an issue and and effectively making decisions as a result of consuming too much information <a target="_blank" href="https://en.wikipedia.org/wiki/Information_overload" class="citation">[6]</a>.
+	</p>
+
+	<p>
+	Basically, when we seek to understand too many things at once, we actually end up not understanding anything. Our brains simply do not have the capacity to make sense of everything we see on the internet, especially if we're spending prolonged periods of time mindlessing consuming information. We don't need to know what Uncle Ted is doing this weekend or what scandal this or that celebrity is involved in or even new events on the other side of the world. We should focus on attempting to truly understand the few things that matter to us. The constant influx of information, most of which is negative, provided by social media makes this near impossible to do.
+	</p>
+
+	<p>
+	Based on this increased propensity for feelings of inadequacy, groupthink, manufactured outrage, and information overload, it is clear to see that social media has had an astoundingly negative effect on our mental well-being as we become more and more addicted. The list doesn't stop there, social media use also increases risk for insomnia as our minds are constantly active in search of gratification as we swipe away into the late hours and early mornings in bed. The blue light emitted by smartphones is also a problem as it messes with our circadian rythm - our natural process of regulating the sleep-wake cycle - resulting in sleep deprivation <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5102460/" class="citation">[7]</a>. Our attention spans have also decreased <a target="_blank" href="https://sites.psu.edu/aspsy/2018/10/21/social-media-attention-span/" class="citation">[8]</a>, causing many of us to have difficulty in properly engaging with long-form content such as books and in-depth articles. Few can stand being bored anymore and we feel the need to constantly be consuming something, usually more simple and more mindless. Many even feel the need to constantly be multitasking in order to feel as if we're not missing out and we're as productive as possible. This is despite the fact that nobody is really good at multitasking <a target="_blank" href="https://www.pnas.org/content/106/37/15583.abstract" class="citation">[9]</a>. As explained with information overload, this tends to have effects opposite of what we desire. All of this results in higher rates of depression and anxiety which has been associated with higher rates of social media use <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904786/" class="citation">[10]</a>.
+	</p>
+
+	<h2 id="privacy">Invasion of Privacy</h2>
+
+	<p>
+	The consquences of social media extend far beyond a personal level. We're beginning to the see the extremely negative impact it has on a broad societal level. This impact is the result of its ability to accurately influence user behavior and install surveillance states across the globe due to the vast amount of user data these companies are able to collect, store, and analyze.
+	</p>
+
+	<p>
+	So what information, exactly, do companies have access to and what do they do with this information?
+	</p>
+
+	<p>
+	Take the time to read the privacy policy of any social media company. If you ignore all the legal jargon, it basically says they have the right to collect whatever information they want, store it for an indefinite amount of time, and share it with anybody they choose. ProPublica, a nonprofit investigative journalist publication, collected more than 52,000 unique attributes that Facebook has used to classify users <a target="_blank" href="https://www.propublica.org/article/facebook-doesnt-tell-users-everything-it-really-knows-about-them" class="citation">[11]</a>. This information ranges from mundane interests such as sports preferences and celebrity crushes to income, restaurants frequented, and the number of credit cards someone may have in their wallets. Facebook even buys data about its users’ mortgages, car ownership, and shopping habits from some of the biggest commercial data brokers <a target="_blank" href="https://www.propublica.org/article/breaking-the-black-box-what-facebook-knows-about-you" class="citation">[12]</a>.
+	</p>
+
+	<p>
+	By using the service, you accept the conditions of having all this information collected about you. Sometimes you don't even have to use the service for a social media company to collect your data with Facebook being known to collect data on users who have never even signed up, through the use of "shadow profiles" <a target="_blank" href="https://www.cnet.com/news/shadow-profiles-facebook-has-information-you-didnt-hand-over/" class="citation">[13]</a>.
+	</p>
+
+	<p>
+	It doesn't take a discerning eye to see that "opting-out" and "privacy controls" are nothing more than bad-faith memes due to the proprietary nature of their software. Nobody externally has access to the source code to ensure that these user information buttons actually do what they say they do, and rarely are companies held accountable by regulation guidelines such as the EU's General Data Protection Rights (GDPR) or the California Online Privacy Protection Act (CalOPPA). The ones who do face punishment are only hit with fines that make up a fraction of their revenue. It's clear to see that they hold no expectation or committment to user privacy and nor do they have much incentive to do so.
+	</p>
+
+	<p>
+	Most people seem to understand all of this, but they just don't care about privacy. Perhaps, they believe that they have nothing to hide because they're not doing anything wrong. This is a fallacy for a number reasons. We all have things to hide. It's why we close the door to use the bathroom or draw the curtains at night. It's why we put passcodes on our phones. It's why we hate people peering over our shoulder when looking at something online.
+	</p
+	>
+	<p>
+	The second part of the argument depends on the legal system of the country you reside. In every country, you can still be arrested despite no wrongdoing. This is because the law doesn't dictate morality. Additionally, even if what you're doing is legal today, this can be subject to change as laws can change as well.
+	</p>
+
+	<p>
+	Okay, but social media doesn't have the power of a government. And maybe people still don't care because these companies just use this information to improve their services and show targeted advertisements, right?
+	</p>
+
+	<p>
+	Wrong!
+	</p>
+
+	<p>
+	This is the information age. Information is power.
+	</p>
+
+	<p>
+	And internet companies, mostly social media, have unparalleled insight into the lives of over three billion people (and rising). Not only is it dangerous to consolidate this information in the hands of companies who have no committment to anything but their bottom lines, but most of such information is also made easily available to actual governments. The 2013 Snowden Relevations brought to light the depth of the erosion of our civil liberties. Let's just say that you better have a lot of faith in your government to not abuse this information.
+	</p>
+
+	<p>
+	The American National Security Agency (NSA) has a data sharing program with prominent internet companies called PRISM <a target="_blank" href="https://en.wikipedia.org/wiki/PRISM_%28surveillance_program%29" class="citation">[14]</a>. The NSA, too, has Project XKeyscore comprising of backend databases to store almost all internet traffic and user interfaces to easily query this data <a target="_blank" href="https://en.wikipedia.org/wiki/XKeyscore" class="citation">[15]</a>. Lastly, the US Government additionally shares private information with a host of other governments via The Five Eyes, Nine Eyes, and Fourteen Eyes global surveillance programs <a target="_blank" href="https://en.wikipedia.org/wiki/Five_Eyes" class="citation">[16]</a> with countries all across the world instituting programs of their own.
+	</p>
+
+	<p>
+	The consequences of these surveillance programs have been repeatedly used to squash human rights advocates and journalists who speak out against authoritarian governments in numerous countries including Iran <a target="_blank" href="https://ifex.org/the-state-of-surveillance-in-irans-cyberspace/" class="citation">[17]</a>, China <a target="_blank" href="https://www.cbc.ca/news/technology/chinese-hackers-target-human-rights-groups-citizen-lab-says-1.2830973" class="citation">[18]</a>, Ethiopia <a target="_blank" href="https://www.newyorker.com/tech/elements/hackers-without-borders?verso=true" class="citation">[19]</a>, and the Arab Gulf States <a target="_blank" href="https://features.hrw.org/features/HRW_2016_reports/140_Characters/index.html" class="citation">[20]</a>. In the United States and the United Kingdom, mass data collection resulted in the harvesting and analysis of 50 million Facebook users' data by <a target="_blank" href="https://en.m.wikipedia.org/wiki/Cambridge_Analytica" class="citation">Cambridge Analytica</a> to push targeted political advertisement campaigns, influencing the outcomes of the 2016 US Presidential Election and the 2015 Brexit Referendum, respectively <a target="_blank" href="https://www.politico.eu/article/cambridge-analytica-chris-wylie-brexit-trump-britain-data-protection-privacy-facebook/" class="citation">[21]</a>.
+	</p>
+
+	<p>
+	The former examples show governments' ability to track, intimidate, arrest, and even murder individuals holding any beliefs the government may not like. The latter case, however, may be even more dystopian. Time to return to psychology.
+	</p>
+
+	<p>
+	Enough information or data points about a certain individual can allow certain inferences to be made about that individual. For example, a collection of posts or likes from one's social media can be used to infer beliefs, political affiliations, personality traits, or interests. It can even be used to understand which presentation styles or use of language that individual may be most receptive to, thus allowing for the subtle manipulation of his or her thoughts and behaviors.
+	</p>
+
+	<p>
+	This is the reason why a 2015 Stanford research algorithm, using just 227 of a person's Facebook likes, was enough to be a better predictor of personality than that person's closest friends <a target="_blank" href="https://www.pnas.org/content/112/4/1036" class="citation">[22]</a>. It's also the reason Facebook was able to conduct rather successful mood expirements in 2012 by tweaking the newsfeeds of about 700,000 unknowing users <a target="_blank" href="https://www.nytimes.com/2014/06/30/technology/facebook-tinkers-with-users-emotions-in-news-feed-experiment-stirring-outcry.html" class="citation">[23]</a>. According to New York Times reporter Vindu Goel: "The researchers found that moods were contagious. The people who saw more positive posts responded by writing more positive posts. Similarly, seeing more negative content prompted the viewers to be more negative in their own posts."
+	</p>
+
+	<p>
+	The techniques used by Cambridge Analytica are too complex to properly cover here but <a target="_blank" href="https://www.theguardian.com/technology/2018/mar/17/facebook-cambridge-analytica-kogan-data-algorithm" class="citation">this Guardian article</a> goes in-depth on the develepment of the company's algorithms that assisted them in using likes to manipulate voting behavior.
+	</p>
+
+	<p>
+	The trend, however, is clear. The ability for such companies and governments to manipulate the thoughts and behaviors of their users will increase over time as they develop better machine-learning algorithms to exploit human psychology.
+	</p>
+
+	<h2 id="conclusion">Conclusion</h2>
+	<p>
+	Social media is an existential threat to our democracies, institutions, and civil liberties that simultanously impairs our mental well-being and wastes our time.
+	</p>
+
+
+	<h2 id="sources">Sources</h2>
+	<ul class="link-list" id="source-list">
+	   <li><span>[1]</span><a href="https://www.nngroup.com/articles/attention-economy/">The Attention Economy | Nielsen Norman Group</a></li>
+	   <li><span>[2]</span><a href="https://invidio.us/watch?v=n2H8wx1aBiQ">Senator Asks How Facebook Remains Free, Mark Zuckerberg Smirks: ‘We Run Ads’ | NBC News</a></li>
+	   <li><span>[3]</span><a href="https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=4863&context=etd">Materialism and Psychological Well-being: A Meta-analytical Study | Brigham Young University</a></li>
+	   <li><span>[4]</span><a href="https://invidio.us/watch?v=awAMTQZmvPE">Brain Hacking | 60 Minutes</a></li>
+	   <li><span>[5]</span><a href="https://suntrics.com/tech-blogs/longest-snapchat-streak-a-brief-guide/#Snapchat_Streak_Emojis">A Brief Guide to Snapchat's Hottest Trend | The Suntrics</a></li>
+	   <li><span>[6]</span><a href="https://en.wikipedia.org/wiki/Information_overload">Information Overload | Wikipedia</a></li>
+	   <li><span>[7]</span><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5102460/">Direct Measurements of Smartphone Screen-Time: Relationships with Demographics and Sleep | PLoS ONE</a></li>
+	   <li><span>[8]</span><a href="https://sites.psu.edu/aspsy/2018/10/21/social-media-attention-span/">Social Media & Attention Span | Penn State University</a></li>
+	   <li><span>[9]</span><a href="https://www.pnas.org/content/106/37/15583.abstract">Cognitive control in media multitaskers | Stanford University</a></li>
+	   <li><span>[10]</span><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904786/">Social Media Use and Depression and Anxiety Symptoms: A Cluster Analysis | American Journal of Health Behavior</a></li>
+	   <li><span>[11]</span><a href="https://www.propublica.org/article/facebook-doesnt-tell-users-everything-it-really-knows-about-them">Facebook Doesn't Tell Users Everything It Really Knows About Them | ProPublica</a></li>
+	   <li><span>[12]</span><a href="https://www.propublica.org/article/breaking-the-black-box-what-facebook-knows-about-you">Breaking the Black Box: What Facebook Knows About You | ProPublica</a></li>
+	   <li><span>[13]</span><a href="https://www.cnet.com/news/shadow-profiles-facebook-has-information-you-didnt-hand-over/">Shadow profiles: Facebook has information you didn't hand over | CNET</a></li>
+	   <li><span>[14]</span><a href="https://en.wikipedia.org/wiki/PRISM_%28surveillance_program%29">PRISM Surveillance Program | Wikipedia</a></li>
+	   <li><span>[15]</span><a href="https://en.wikipedia.org/wiki/XKeyscore">XKeyscore | Wikipedia</a></li>
+	   <li><span>[16]</span><a href="https://en.wikipedia.org/wiki/Five_Eyes">Five Eyes | Wikipedia</a></li>
+	   <li><span>[17]</span><a href="https://ifex.org/the-state-of-surveillance-in-irans-cyberspace/">The state of surveillance in Iran’s cyberspace | IFEX</a></li>
+	   <li><span>[18]</span><a href="https://www.cbc.ca/news/technology/chinese-hackers-target-human-rights-groups-citizen-lab-says-1.2830973">Chinese Hackers Target Human Rights Groups | CBC News</a></li>
+	   <li><span>[19]</span><a href="https://www.newyorker.com/tech/elements/hackers-without-borders?verso=true">Hackers Without Borders | The New Yorker</a></li>
+	   <li><span>[20]</span><a href="https://features.hrw.org/features/HRW_2016_reports/140_Characters/index.html">Online Activists Harassed & Jailed in Arab Gulf States | Human Rights Watch</a></li>
+	   <li><span>[21]</span><a href="https://www.politico.eu/article/cambridge-analytica-chris-wylie-brexit-trump-britain-data-protection-privacy-facebook/">Cambridge Analytica helped ‘cheat’ Brexit vote and US election, claims whistleblower | Politico</a></li>
+	   <li><span>[22]</span><a href="https://www.pnas.org/content/112/4/1036">Computer-based personality judgments are more accurate than those made by humans | PNAS</a></li>
+	   <li><span>[23]</span><a href="https://www.nytimes.com/2014/06/30/technology/facebook-tinkers-with-users-emotions-in-news-feed-experiment-stirring-outcry.html">Facebook Tinkers With Users’ Emotions in News Feed Experiment, Stirring Outcry | The New York Times</a></li>
+	</ul>
+    </description>
+
   </item>
   <item>
     <title>less can be more</title>
