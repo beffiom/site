@@ -3,12 +3,17 @@
 
 <channel>
   <title>beffiom</title>
-  <link></link>
-  <description></description>
+  <link>https://beffiom.github.io/site/blog.html</link>
+  <description>benjamin effiom</description>
   <item>
-    <title></title>
-    <link></link>
-    <description></description>
+    <title>social media bad</title>
+    <link>https://beffiom.github.io/site/blog/social-media-bad.html</link>
+    <description>refusing to use social media</description>
+  </item>
+  <item>
+    <title>less can be more</title>
+    <link>https://beffiom.github.io/site/blog/less-can-be-more.html</link>
+    <description>why minimalism works</description>
   </item>
 </channel>
 
