@@ -1,5 +1,5 @@
 # beffiom
 
-read my blog and see my favorite software, websites, and book
+read my blog and see my favorite software, websites, and books
 
-hosted at:
+hosted at: https://beffiom.github.io/site/blog.html
