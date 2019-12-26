@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Blockchain &amp; The Open Web</title>
+   <link rel="stylesheet" type="text/css" href="../css/article.css">
+
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="technology and its cultural impact">
+   <meta name="keywords" content="Techonology,Cybersecurity,Privacy,Minimalism,Veganism,Free Software">
+   <meta name="author" content="beffiom">
+</head>
+
+<body>
+   <content>
+	<a href='../blog.html'>⬅️ return to site</a>
+	<p class="date">26 December, 2019</p>
+
+
+	<h1>Blockchain &amp; The Open Web</h1>
+
+	<h3>Contents</h3>
+	<ul class="link-list" id="table-of-contents">
+	   <li><a href="#introduction">Introduction</a></li>
+	   <li><a href="#centralization-sucks">Centralization Sucks</a></li>
+	   <li><a href="#a-new-web">A New Web</a></li>
+	   <li><a href="#open-standards">Open Standards</a></li>
+	   <li><a href="#takeaways">Takeaways</a></li>
+	</ul>
+
+	<h2 id="introduction">Introduction</h2>
+	<p>The World Wide Web is dead.</p>
+	<p>Sorry, Time Berners-Lee. Your dream of a decentralized web has not come to be with the World Wide Web. The domain name system is now controlled by a handful of companies and most internet users are using entirely centralized platforms in the form of social media, search engines, and SaaS subscriptions.</p>
+	<h2 id="centralization-sucks">Centralization Sucks</h2>
+	<p>Unfortunately, the current make-up of the web is largely centralized. This means that we all congregate in a central place where a single entity controls everything in that place. On the internet, almost every popular service is centralized from YouTube to Facebook to Netflix.</p>
+	<p>The main issue with centralization is consolidation of power. YouTube controls the platform. They make all the decisions and can choose to limit user freedom however they wish. They choose the layout, the styling, the recommended content, and most importantly, who can and who can&#39;t use the platform.</p>
+	<p>The second issue with centralization is the consolidation of information. Facebook controls all the buttons and all the web forms. This makes data mining a simple task. Everything they may want to capture can easily be identified for use in algorithms, automating the process. Not only do you have to trust Facebook not to share information with others, they also store this information in a centralized location which a security concern. This consolidation of information makes centralized servers with sensitive data prime target.</p>
+	<p>In general, centralized platforms disporportionally benefit the central power. The companies.</p>
+	<p>Contrast this with a decentralized protocol like email or internet relay chat (IRC). Everybody can use it. If you don&#39;t like the features offered by one client, you can choose another, or even build your own if you know how. You can choose one that looks the coolest or one that doesn&#39;t collect information about you or one with the tighest security. You can do all of this without missing out on the central service or content offered by it.</p>
+	<p>Alternatively, we can look at federated networks like Fediverse consisting of Mastodon, PeerTube, Diaspora, and PixelFed, among others. Federation can allow instances. Each instance can set their own rules in order to cultivate the type of community that they want. Then, all these instances or community can interact with one other within the larger network.</p>
+	<p>This distrubution of power means there is no single point of failure and users have more freedom about how they interact with the service. It also allows information to be distributed among various entities preventing .</p>
+
+	<h2 id="a-new-web">A New Web</h2>
+	<h4 id="security-first-decentralized-ad-free-blockchain-ledgers-">Security First! Decentralized! Ad-Free! Blockchain Ledgers!</h4>
+	<p>A handful of companies should not exist as gatekeepers to the internet. These gatekeepers come in the form of ISPs, search engines, domain name system (DNS) registarts, and more recently centralized social hubs like YouTube and Facebook. This is the main challenge to be addressed by an open web.</p>
+	<p>ISPs, being the first gatekeepers, are a big issue, but won&#39;t be covered in-depth in this article. This is mostly about the currently flawed structured of DNS.</p>
+	<p>For those unaware of how DNS works, a website is hosted on a server with an IP address. This web server can then be connected to the internet (which is just a giant of interconnected network of servers and devices). Anybody with an internet connection who knows your IP address can access your site. Since remembering individual IP addresses is too difficult, we give them names which redirect to the IP addresses using DNS servers which contain a list of domain names and their corresponding IP address. For example, you can access DuckDuckGo via their domain <a href="https://duckduckgo.com/">duckduckgo.com</a> or their IP address <a href="176.34.131.233">176.34.131.233</a>.</p>
+	<p>The current structure of the domain name system exists so that companies, called registries can own top-level domains such as <code>.com</code> if approved by the nonprofit <a href="https://www.icann.org/">ICANN</a>. Then other companies can own the rights to domain names of which users can access and buy. But this doesn&#39;t give you full control. Your DNS registrar such as GoDaddy or NameCheap still owns the domain name, they&#39;re just letting you use it. This means that they can move it or take it away from you.</p>
+	<p>This has to change. Users should have full control over their domains meaning they should be the sole owners.</p>
+	<p>Blockchain domains can solve this issue. Blockchain is a distributed technology that stores records on a &quot;blockchain&quot; and links them all cryptographically. Your domain is an asset on the blockchain that can be accessed by anyone, but only controlled by you. It sits in your digital wallet and websites associated with it can only be changed with a passphrase or keyfile. However, rather than the domain redirecting to an IP address, it would redirected to associated wallet address where the web server is stored. The result is a website that only you can put up and only you can take down.</p>
+
+	<h2 id="open-standards">Open Standards</h2>
+	<p>Centralized content hubs can be addressed by strong open web protocols.</p>
+
+	<h3 id="communication">Communication</h3>
+	<h4 id="improving-email-irc-sms-chat-applications">Improving Email/IRC/SMS/Chat Applications</h4>
+	<p>Phone numbers and even email addresses have become somewhat of an antiquated concept. Email, IRC, and SMS are security nightmares. Indepedent chat applications are the most secure and most feature-rich, but they have a big problem. None of them work with one another! If I have one friend who uses Telegram, another who uses WhatsApp, and another who uses Signal, then I need three apps. No thanks!</p>
+	<p>Future communication protocols should seek to erase email, irc, sms, and chat apps altogether. Messages should be end-to-end encrypted by default (sorry world governments, privacy is not a good trade-off for &quot;&quot;&quot;security&quot;&quot;&quot;&quot;!). Everyone should have their own unique identifier, a username. People should be able to use whichever front-end chat client to interface this protocol they choose and they should be to communicate with any regardless of which client they may choose.</p>
+	<p><a href="https://xmpp.org/about/">XMPP</a> and <a href="https://matrix.org/">Matrix</a> are the closest examples of this.</p>
+
+	<h3 id="content-marketplace">Content Marketplace</h3>
+	<h4 id="replacing-youtube-netflix-spotify-amazon">Replacing YouTube, Netflix, Spotify, &amp; Amazon</h4>
+	<p>Imagine a decentralized content platform where creators had full control over their content. All their information and content added to a distributed blockchain ledger, controlled by no one but them. They&#39;re the only ones who can remove their content from the platform.  Imagine this with no fees to a middle man for hosting their content (as with Amazon, YouTube, Spotify).</p>
+	<p>Creators can upload videos, music, documents, and e-books. With monetization built-in, viewers can choose to &quot;tip&quot; their favorite creators, with creators receiving 100% of that tip. Creators can also choose to paywall certain forms of content, with access being withheld to only users who pay. Viewers can, again, select their client of choice. Perhaps, there may even come to be clients that specialize in amateur videos such as YouTube, movies such as Netflix, music such as Spotify, or ebooks such as Amazon.</p>
+	<p>All content is DRM-free on a platform with no ads.</p>
+	<p>This is a digital marketplace. This is <a href="https://lbry.com/what">LBRY</a>.</p>
+
+	<h3 id="social-media-">Social Media?</h3>
+	<h4 id="replacing-facebook-instagram-twitter-reddit-linkedin">Replacing Facebook, Instagram, Twitter, Reddit, &amp; LinkedIn</h4>
+	<p>If you read my social media bad article, you know that I am no fan of social media. But I actually think social media can be done well, if a few criteria can be met first. The biggest problems with social media are the massive invasions of privacy, the like button reinforcing human ego, and advertisements. With this in mind, any new social media should have the following traits:</p>
+	<ol>
+	   <li>Open-Source</li>
+	   <li>Decentralized</li>
+	   <li>No Likes</li>
+	   <li>No Ads</li>
+	</ol>
+
+	<p>One social media that does really well with most of these is <a href="https://joinmastodon.org/">Mastodon</a>, a federated &amp; decentralized microblogging platform similar to Twitter. However, I believe Mastodon still records the number of toots (shares) and favorites.</p>
+
+	<h3 id="personal-sites-and-distributed-content">Personal Sites and Distributed Content</h3>
+	<p>Everyone should have their own website!</p>
+	<p>Web hosting and implementing solutions for blogs should as simple as setting up a medium or write freely account.</p>
+	<p>Recommendations should be human-based, not algorithm-based with everyone having a page of links to their favorite sites. Switching between dark and light mode should be easy no matter the site. Content on these sites should be distributed via <a href="https://en.wikipedia.org/wiki/RSS">RSS</a>, <a href="https://en.wikipedia.org/wiki/Atom_(Web_standard">Atom</a>), or a similar standardized  syndication techonology.</p>
+	<p>Oh, and no more JavaScript!</p>
+	<img src="../img/javascript-bad.jpg" alt="javascript bad">
+	<p>Client-side scripting in web browsers is cancerous enough, but at least have a better &quot;web&quot; language. Maybe one without numerous security vulnerabilities like SQL injection and cross-site scripting.</p>
+
+	<h2 id="takeaways">Takeaways</h2>
+	<p>The World Wide Web has become a corporate cesspool. A new web should be made that ensures decentralized, security-focused protocols, encorporating blockchain technology to do so.</p>
+
+	<h2 id="more-info">More Info</h2>
+	<p><a href="https://onezero.medium.com/why-decentralization-matters-5e3f79f7638e">Why Decentralization Matters</a></p>
+  </content>
+</body>
+</html>
+
