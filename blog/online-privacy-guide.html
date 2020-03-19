@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>blog | beffiom</title>
+   <link rel="stylesheet" type="text/css" href="../css/article.css">
+
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="technology and its cultural impact">
+   <meta name="keywords" content="Techonology,Cybersecurity,Privacy,Minimalism,Veganism,Free Software">
+   <meta name="author" content="beffiom">
+</head>
+
+<body>
+   <content>
+	<a href='../blog.html'>⬅️ return to site</a>
+	<p class="date">18 March, 2020</p>
+
+    <h1>Internet Privacy &amp; Security, Explained!</h1>
+
+    <h3>Contents</h3>
+    <ul class="link-list" id="table-of-contents">
+	   <li><a href="#abstract">Abstract</a></li>
+	   <li><a href="#privacy-vs-security">Privacy vs Security</a></li>
+	   <li><a href="#opsec-explained">Opsec Explained</a></li>
+	   <li><a href="#modern-threats">Modern Threats</a></li>
+	   <li><a href="#security101">Security 101</a></li>
+       <li><a href="#takeaways">Takeways</a></li>
+	</ul>
+
+    <h2 id="abstract">Abstract</h2>
+    <p>Most guides to online privacy simply tell their audience to replace one set of software (that invades their privacy) with another (that respects their privacy). But the software one uses is only part of the battle and I'm not convinced it's even the most important. If you want to protect your online privacy, it's far more complicated than just "this company good" or "this company bad." In order for anyone to understand how best to protect their privacy, they must first understand what it is, exactly, they wish to protect and who is a threat of preventing it from being kept secure. Once this has been done, individuals will be equipped to make the best decision for themselves, their situations, and their level of technical ability. This article seeks to explain foundational security terminology, explain modern threats online, and offer basic security strategies so that individuals can devise their own strategies to protect their privacy.</p>
+
+    <h2 id="privacy-vs-security">Privacy vs Security</h2>
+    <p>The most important words in all of this are privacy and security. Therefore, it's only fitting to begin by properly defining them.</p>
+
+    <h3>What is privacy?</h3>
+    <p>Privacy is the default state of others not knowing where we are, what we are doing, or what we are thinking.</p>
+
+    <h3>Why is privacy important?</h3>
+    <p>Privacy is a fundamental human right implied in multiple parts of the US constitution including the 4th amendment's right against unreasonable searches and seizure and the 5th amendment's right to remain silent. Most people actively exercise their right to privacy every single day when they close the door to use the restroom, draw the curtains at night, or put a passcode on their phone. Most people also dislike the feeling of people peering over their shoulders while their using their phones.</p>
+    <p>Privacy matters because, as we've seen in the last three decades since the dawn of the world wide web, that our personal information grants entities tremendous power which can then be exercised over us, on both a personal and societal scale. Imagine the harm someone could do knowing your social security, first and last name, and credit card information. It's very important that such information be kept private. Now imagine the harm a state actor could with personal information (personal beliefs and location data) about individual targets.</p>
+
+    <h3>What is security?</h3>
+    <p>Security is the freedom from potential threat or harm including the measures one takes to ensure this freedom.</p>
+    <p>Online, it is used to reference the broad tools, methods, and processes one might use to protect something valuable. In this sense, valuables could include banking information, social security numbers, contact information, employment history, or home addresses, for example. Having such information open and available to anyone exposes you to multiple threats including identity theft, credit card fraud, harassment, stalking, or burglaries.</p>
+
+    <h3>The Most Important Thing About Security</h3>
+    <p> <strong>Nothing is 100% Secure:</strong> Given unlimited time and resources, any form or depth of security is breakable. The goal is to make your system impenetrable enough to deter any malicious actor or impenetrable enough to exhaust the resources of any adversaries you may have.
+    </p>
+
+    <h2 id="opsec-explained">Opsec Explained</h2>
+    <p>Opsec, or operations security, are the specific processes or countermeasures one might employ to secure something. For example, one's use of opsec may entail email encryption, not using certain pieces of technology, or specific rules about what information they share online such as not posting personally identifiable information, not uploading any personally identifiable images, or scrubbing metadata from photos posted online.</p>
+    <p>There are 5 main processes in order to determine which countermeasures will provide the best security.</p>
+    <ol>
+        <li>Identification of Critical Information</li>
+        <li>Analysis of Threats</li>
+        <li>Analysis of Vulnerabilities</li>
+        <li>Assessment of Risk</li>
+        <li>Application of Appropriate OPSEC Measures</li>
+    </ol>
+
+
+    <h3>Threat Modeling &amp; Analysis</h3>
+    <p>What is it that you're trying to secure and from whom?</p>
+
+    <h4>What...</h4>
+    <p>
+    Financial Information?
+    <br>Birth Dates?
+    <br>Contact Information?
+    <br>Home Addresses?
+    <br>Employment History?
+    <br>Personal Beliefs
+    <br>All personal information?
+    </p>
+
+    <h4>From whom...</h4>
+    <p>
+    Thieves?
+    <br>Hackers, Malware, Phishing Attempts?
+    <br>Family Members, Angry Ex-partners, Stalkers?
+    <br>Advertisers/Marketing Companies?
+    <br>Mass Surveillance from... Internet Service Providers? Online Companies and Services? Governments?
+    <br>Targeted Surveillance from.. Internet Service Providers? Online Companies and Services? Governments? Individual Adversaries?
+    </p>
+
+    <h4>Risk assessment...</h4>
+    <p>
+    How competent are these adversaries?
+    <br>What are ways they could do you harm?
+    <br>What is their motivation?
+    <br>What are their goals?
+    <p>Once these questions have been answered, you can then begin to employ effective countermeasures.</p>
+
+    <h2 id="modern-threats">Modern Threats</h2>
+    <p>The modern web is a spooky place. Tracker scripts run amok on literally every website. The NSA is collecting as much web traffic as possible through their Stellarwind, PRISM, and Five Eyes programs. And the most popular websites are owned by centralized entities that can collect whatever data they can get their hands on.
+    <ul style="padding:0;list-style-type:none;">
+        <li style="padding-bottom:5px;"><strong>Telecom Companies:</strong> Mass Surveillance (Call Logs, Web History, Geolocation Tracking)</li>
+        <li style="padding-bottom:5px;"><strong>Corporations:</strong> Mass Surveillance (Banking Information, Names, Dates of Birth, Product Interactions)</li>
+        <li style="padding-bottom:5px;"><strong>Governments:</strong> Mass Surveillance (Everything shared from telecoms and corporations), Cyber Warfare</li>
+        <li style="padding-bottom:5px;"><strong>General Hacking:</strong> Malware, Ransomware, Scams, and Phishing Attempts</p></li>
+    </ul>
+
+    <h2 id="security101">Security 101</h2>
+
+    <h3>Attack Vectors and Minimalism</h3>
+    <p>One of most effective opsec practices, regardless or your threat model, is minimalism.  Simply put, the larger the attack surface you have, the more vulnerable you are. This attack surface in a software environment is the sum of all the different attack vectors, or ways an unauthorized user can potentially do you harm. For this reason, keeping the attack surface as small as possible is basic opsec.</p>
+    <p>In practice, this means you should limit the number of devices you own, the number of software you use, and the number of accounts you have to an absolute minimum. Any bloat or unnecessary attack vector just weakens your security and leaves you more vulnerable to harm. Actionable steps you can take right now is deleting every unused account you have and deleting every unused apps from your devices.</p>
+    <p>In my opinion, this is the greatest security practice in isolation. Even the most knowledgeable cybersecurity experts can still fall victim to phishing attempts, social engineering, or email/website spoofing due to momentary lapses in attention. But what if you don't do online shopping or don't have any online accounts? What information would you even give over?</p>
+    <p>For similar reasons, IoT devices such as Amazon Alexa, Ring Doorbell, Smart Watches, Smart Fridges, and pretty much anything that connects to the internet is an inherent threat to you privacy and security. I pick on IoT devices specifically because in my view they are little more than gimmicks that offer little to no added convenience over standard internet devices like computers or smartphones. They are a complete nonessential. <a class="citation" href="https://www.theverge.com/2019/10/21/20924886/alexa-google-home-security-vulnerability-srlabs-phishing-eavesdropping">And they also have more privacy and security relation concerns to be wary of.</a>And they also have more privacy and security relation concerns to be wary of.</p>
+
+    <h3>Passwords and 2FA</h3>
+    <p>Authentication is a fundamental security concept. It determines who has access to what. If you want to secure your information, then you need to have tight locks on who can access what. This is what passwords do. Passwords are the key to the door that guards the accounts that hold your information. Except in this scenario, the door and the lock are only as strong as that key that unlocks it and how well hidden it is. The strength of your passwords, and your ability to keep them safe, are what determines the degree of difficulty someone has in accessing your accounts.</p>
+
+    Can your password be guessed?
+    <br>Is it the same <a class="ciation" href="https://www.wired.co.uk/article/disney-plus-hack-credential-stuffing">password used on another site</a>?
+    <br>Can it be cracked with a dictionary attack?
+    <br>Can it be brute forced?
+    <br>Can someone just look over your shoulder?
+    <br>Could it be compromised via a social engineering attack?
+    <p>If you actually know your password from memory, the answer to all of these questions is probably <em>yes</em>.</p>
+    <p>In order to mitigate these attacks, passwords should be long (as long as permitted but at least around 20+ characters or so), unique (not reused by other accounts, and completely random. But remembering such a password, especially unique ones for multiple accounts, is impossible, right? Right.</p>
+
+    <h4>Password Managers</h4>
+    <p>This is why you need a password manager. A password manager is software that stores login credentials for easy access, allowing you to choose whatever password you want without having to memorize it. Authorization is handled by a single master password. With this model, your password cannot be guessed or cracked because it's long and random. It also cannot be pulled from a list of previous breaches. Additionally, social engineering attacks and shoulder surfing will be far less likely as you yourself don't even know your own password. On the downside, it still wouldn't prevent phishing attacks or keylogger attacks. In order to mitigate such attacks, change these randomized password regularly.</p>
+    <p>This introduces other security vulnerabilities, though, right? You're literally putting all your eggs in one basket? Yes, this is true, but these risks can be mitigated by other practices that I'll cover later (such as device encryption and compartmentalization). An attacker gaining access to your password manager is still unlikely on the surface though, just because any proper cloud-based password manager will hash your master password when logging in so as to not store it in plain text. Also, offline password managers allow you to lock your database a designated period with no use even if the user is still logged into the computer.</p>
+    <p>Overall, though, using a password manager offers far more security despite this rather large risk. First and foremost, it's important that you pick a long passphrase, while incorporating as wide a percentage of numbers and special characters as possible while still being easy to remember. For example, a good one would be <em>MD_teacH-isthetruuPK_luffY2sleep4</em>, a reference to my favorite anime One Piece. Practice it enough and attempt to commit it to muscle memory over time. Inside jokes are an even better subject of passphrases as they aren't easily guessed or googlable.</p>
+    <p>Good password managers are KeePassXC and Bitwarden.</p>
+
+    <h4>Security Questions</h4>
+    <p>Lie! When it comes to security questions, lie like never before! Security questions, or insecurity questions, are perhaps the dumbest opsec out there if you tell the truth. You do not want an answer someone could look up about you because security questions can be used to reset the password of an account. If a website asks you what your mother's maiden name is, respond with a random string of characters as long as the answer permits. Store the fictional answer in your password manager.</p>
+
+    <h4>Two-Factor Authentication</h4>
+    <p>2FA, or two-factor authentication, is like an extra layer of authentication security. In such a scenario with 2FA activated, compromised login credentials wouldn't be enough to compromise an account. This is because in order to login you would first have to input the OTP, or one-time password, provided by the 2FA app associated with the account.</p>
+
+    <p>2FA is very good, but only if done by an app. SMS-based authenticators are a ridicoulous security vulnerability. <a class="citation" href="https://reclaimthenet.org/twitter-ceo-jack-dorseys-twitter-account-hacked/">Just ask Twitter CEO Jack Dorsey</a>. The reason why two-factor by SMS is so bad is primarily because of sim-swap attacks - a targeted social engineering attack where an attacker gathers information about a victim in order to impersonate the victim before their mobile telephone provider in an attempt to have the victim's phone number ported a device controlled by the attacker. Once the attacker has access to the victim's phone number, he gains access to any account linked to the number via SMS-based 2FA. This is just one prevalent attack. Others include infecting a mobile device with malware to gain remote access, and resetting accounts from there. Moreover, with SMS being an insecure messaging protocol, messages such as one-time passwords can be intercepted via man-in-the-middle attacks.</p>
+    <p>For 2FA apps, andOTP and Aegis are good on Android as is Tofu on iOS. Hardware based 2FA such as Nitrokey is even more secure, but over-kill for the average person.</p>
+
+    <h3>Open-Source, Security Audits, and the Cloud</h3>
+    <p>When I recommended the software in the last section, why did I do it? What are the criteria I set?</p>
+    <p>One of the main criteria is whether or not a tool is open-source or not. This is because large and reputable open-source projects, especially KeePass, are constantly being probed and inspected by independent security researchers. Also, most people who create open-source application do so because they have little to no profit motive, making it less likely for them to collect your personal information, let alone attempting to monetize it. And even if it could, you or someone else could inspect the code for yourself to ensure it's not "phoning home" or making unnecessary connections.</p>
+    <p>Another good criterion is whether or not a software has been the subject of an independent security audit. If a security tool, such as a password manager, is not open-source and has never been audited, this should be a massive red flag. Nobody has been able to guarantee the authenticity of the tool. Bitwarden is an open-source password manager that <a class="citation" href="https://blog.bitwarden.com/bitwarden-completes-third-party-security-audit-c1cc81b6d33?gi=2579792138b5">proudly displays the results of their third-party security audit</a>. They also have a public bug bounty program, offering payment for individuals who are to find vulnerabilities in their code. This is a very good sign, and surely one to trust.</p>
+    <p>One downside of Bitwarden, however, is that it's cloud-based. Connecting anything to the internet opens doors for vulnerability because you could be compromised without the attacker needing physical access to your device. If they were to compromise your credentials, they could access your password database from anywhere in the world. For this reason, KeePassXC is preferred from a security standpoint as your database is just a file on your computer that cannot be accessed from the internet.</p>
+
+    <h3>Adblocking &amp; Scriptblocking</h3>
+
+    <h3>Compartmentalization</h3>
+    <p>Compartmentalization is the opsec strategy of not putting all your eggs in one basket so that in the event of a breach, damage is limited to the confines of that single compartment. Compartmentalization can applied in any of the following ways:</p>
+    <ul>
+        <li><strong>Do not reuse the same email address:</strong> If you have one email and it's compromised, so is everything associated with it as most sites allow password resets by email.</li>
+        <li><strong>Choose random, unguessable email addresses void of personally identifiable information for each account and store it in the password manager</strong></li>
+        <li><strong>Create multiple password databases if necessary</strong></li>
+    </ul>
+
+    <p>Obviously, all of this will become very complex if repeated too long. If this is the case just return to the first opsec rule to simplify it. Just reduce the number of accounts you have!</p>
+
+    <h3>Encryption</h3>
+    <p>Encryption is the go-to security measure when ensuring the confidential authorization aspect of the CIA (Confidentiality-Integrity-Availability) triad of security. Different types of encryption are used depending on the method of data transfer, data access, or data storage.</p>
+
+    <h4>Device Encryption</h4>
+    <p>Encrypting a physical device is a common solution for securing data-at-rest, or data that is not traveling over the internet or any network. Common tools for encrypting data-at-rest include:</p>
+    <ul>
+        <li>Passcodes on a phone, laptop, or desktop</li>
+        <li>Full disk encryption</li>
+        <li>Folder or file encryption</li>
+    </ul>
+
+    <h4>Communication Encryption</h4>
+    <p>Encrypting data which travels over a network is a bit different. Commonly used to prevent <a class="citation" href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">Man-in-the-middle attacks</a>, end-to-end or point-to-point encryption make use of public and private key pairs to safely transfer data. A public key holds the information that will travel across a network, but in an encrypted format that is completely unreadable to those who may common across it, while the matching private key holds the code to decrypt the public and make it readable again. This private key is only ever stored on a device and never travels across networks. A common end-to-end encryption protocol is the <a class="citation" href="https://en.wikipedia.org/wiki/Signal_Protocol">signal protocol</a> which is used in the popular Signal and WhatsApp messengers.</p>
+
+    <h4>Web Traffic Encryption</h4>
+    <p>In order to encrypt web traffic, protocols such as HTTPS and TLS are the most common ones. HTTPS, or Hypertext Transfer Protocol Secure, encrypts common web traffic using TLS, or Transport Layer Security. HTTP ensures authentication and protects against eavesdropping, tampering, and interference by attackers between a client and server. Likewise to end-to-end encryption, it is also primarily used to protect against Man-in-the-middle attacks.</p>
+
+    <h3>VPNs and Tor?</h3>
+    <p>Virtual Private Networks act as encrypted tunnel between your IP address and theirs. From there, all traffic coming from your IP address appears as coming from the IP address of the VPN. Depending on your threat model, VPNs can play a role in your opsec.</p>
+
+    <p>VPN uses cases:</p>
+    <ul>
+        <li>Geolocation spoofing (to access region locked content)</li>
+        <li>Hide Your IP from Websites</li>
+        <li>Hide Your Web Traffics from Your ISP</li>
+        <li>Torrenting</li>
+    </ul>
+
+    <p>Things to be aware of:<br>
+    Using a VPN means that not only does the VPN/VPS provider know your IP address, but they also have a log of your web history similar to an ISP. All VPNs claim a strict no log policy, but this simply cannot be verified. Whether or not a VPN company logs or not can best be checked by the laws of the jurisdiction in which they operate.</p>
+
+    <p>What To Look For</p>
+    <ul>
+        <li>Anonymous sign up</li>
+        <li>Anonymous payment</li>
+    </ul>
+
+    <p>Mullvad is an example of a VPN provider who meets these requirements. You give no personally identifiable information upon sign up including no names, no usernames, and no passwords. Instead, they give you a randomly generated number that handles log in. Bitcoin payment is also available.</p>
+    <p>Tor Browser Bundle, on the other hand, is a hardened variant of the Mozilla Firefox Web Browser which routes and encrypts all traffic through various relays with the goal of making impossible the identification of the source of an individual web requests. For the average user, Tor probably isn't necessary for any use beyond web searches as it will hide your search history from your ISP. Using Tor to login to a website pretty much defeats the purpose and it's not suitable for torrenting.</p>
+
+    <h2 id="takeaways">Takeaways</h2>
+    <ul>
+        <li>Minimize the number of devices, apps, and accounts you have</li>
+        <li>Use a password manager with unique, random, and 20+ character long password for each account</li>
+        <li>Prefer reputable open-source projects where possibl</li>
+        <li>Prefer local hosting over cloud-based services</li>
+        <li>Block 3rd party scripts and trackers when browsing online</li>
+        <li>Compartmentalize information to reduce the impact of attacks and breaches</li>
+        <li>Encrypt, encrypt, encrypt</li>
+        <li>VPNs and Tor are not necessary for everyone</li>
+    </ul>
+
+    <h2>What Next?</h2>
+    <ul>
+        <li>For in-depth info on topics introduced in this article: <a class="citation" href="https://github.com/cryptoseb/cryptopaper/">the crypto paper</a></li>
+        <li>Learn more about threat mitigation and security practices: <a class="citation" href="https://wiki.installgentoo.com/wiki/Security">/g/ security</a></li>
+        <li>Private software recommendations: <a class="citation" href="https://digdeeper.neocities.org/">digdeeper</a></li>
+        <li>For in-depth guides: <a class="citation" href="https://ssd.eff.org/en/taxonomy/term/362/">eff surveillance self-defense</a></li>
+        <li>For in-depth video tutorials: <a class="citation" href="https://invidio.us/channel/UCjr2bPAyPV7t35MvcgT3W8Q">the hated one</a></p></li>
+    </ul></li>
+   </content>
+</body>
+</html>
