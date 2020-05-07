@@ -9,7 +9,7 @@
     <title>internet privacy and security, explained!</title>
     <link>https://beffiom.tech/blog/online-privacy-guide.html</link>
     <description>learn the basics of opsec to enhance your privacy!</description>
-    <html>
+    <![CDATA[
     <h2 id="abstract">Abstract</h2>
     <p>Most guides to online privacy simply tell their audience to replace one set of software (that invades their privacy) with another (that respects their privacy). But the software one uses is only part of the battle and I'm not convinced it's even the most important. If you want to protect your online privacy, it's far more complicated than just "this company good" or "this company bad." In order for anyone to understand how best to protect their privacy, they must first understand what it is, exactly, they wish to protect and who is a threat of preventing it from being kept secure. Once this has been done, individuals will be equipped to make the best decision for themselves, their situations, and their level of technical ability. This article seeks to explain foundational security terminology, explain modern threats online, and offer basic security strategies so that individuals can devise their own strategies to protect their privacy.</p>
 
@@ -200,13 +200,13 @@
         <li>For in-depth guides: <a class="citation" href="https://ssd.eff.org/en/taxonomy/term/362/">eff surveillance self-defense</a></li>
         <li>For in-depth video tutorials: <a class="citation" href="https://invidio.us/channel/UCjr2bPAyPV7t35MvcgT3W8Q">the hated one</a></p></li>
     </ul></li>
-    </html>
+        ]]>
   </item>
   <item>
     <title>blockchain and the open web</title>
     <link>https://beffiom.tech/blog/blockchain-and-open-web.html</link>
     <description>the world wide web is finished!</description>
-    <html>
+    <![CDATA[
 	<h2 id="introduction">Introduction</h2>
 	<p>The World Wide Web is dead.</p>
 	<p>Sorry, Tim Berners-Lee. Your dream of a decentralized web has not come to be with the World Wide Web. The domain name system is now controlled by a handful of companies and most internet users are using entirely centralized platforms in the form of social media, search engines, and SaaS subscriptions.</p>
@@ -269,13 +269,13 @@
 
 	<h2 id="more-info">More Info</h2>
 	<p><a href="https://onezero.medium.com/why-decentralization-matters-5e3f79f7638e">Why Decentralization Matters</a></p>
-    </html>
+        ]]>
   </item>
   <item>
     <title>social media bad</title>
     <link>https://beffiom.tech/site/blog/social-media-bad.html</link>
     <description>refusing to use social media</description>
-    <html>
+    <![CDATA[
 	<h2 id="attention-economy">Introduction</h2>
 	<p>
 	Hating social media is nothing new.
@@ -551,13 +551,13 @@
 	   <li><span>[22]</span><a href="https://www.pnas.org/content/112/4/1036">Computer-based personality judgments are more accurate than those made by humans | PNAS</a></li>
 	   <li><span>[23]</span><a href="https://www.nytimes.com/2014/06/30/technology/facebook-tinkers-with-users-emotions-in-news-feed-experiment-stirring-outcry.html">Facebook Tinkers With Users’ Emotions in News Feed Experiment, Stirring Outcry | The New York Times</a></li>
 	</ul>
-    </html>
+        ]]>
   </item>
   <item>
     <title>less can be more</title>
     <link>https://beffiom.tech/blog/less-can-be-more.html</link>
     <description>why minimalism works</description>
-    <html>
+    <![CDATA[
 	<h2 id="intro">Introduction</h2>
 	<p>
 	Many people believe that minimalism is just about owning a small number of things. The result of minimalism is not neccessarily what's important, it's the method behind it. It's about the thought required to arrive at your answer. The fundamental reason why minimalism has made an impact on my life is because it requires me to really explore things that matter to me and understand why they matter. Once I've accomplished this, it's rather easy to eliminate everything else without feeling like I'm missing out. In order to figure out what things have value and why, I am often forced to think about the difficulties and challenges in my life; problems to solve. But that's only one piece of the puzzle. After identifying things and practices that will solve these problems, I have to ask myself 'why'? Why do these things solve the problem?
@@ -651,7 +651,7 @@
 	<p>
 	Using a smaller amount of more valuable things that focus on directly solving a problem or fulfilling a need are often more effective than larger or more complex solutions. This is because many of our problems, in our personal lives at least,  are rather simple, but we tend to overcomplicate them with imaginary constructs about the things we truly need. This same principle can be applied to not only to what we do, but the things we own and the amount and type of information we consume.
 	</p>
-    </html>
+        ]]>
   </item>
 </channel>
 
