@@ -6,19 +6,652 @@
   <link>https://beffiom.github.io/site/blog.html</link>
   <description>benjamin effiom</description>
   <item>
+    <title>internet privacy and security, explained!</title>
+    <link>https://beffiom.tech/blog/online-privacy-guide.html</link>
+    <description>learn the basics of opsec to enhance your privacy!</description>
+    <html>
+    <h2 id="abstract">Abstract</h2>
+    <p>Most guides to online privacy simply tell their audience to replace one set of software (that invades their privacy) with another (that respects their privacy). But the software one uses is only part of the battle and I'm not convinced it's even the most important. If you want to protect your online privacy, it's far more complicated than just "this company good" or "this company bad." In order for anyone to understand how best to protect their privacy, they must first understand what it is, exactly, they wish to protect and who is a threat of preventing it from being kept secure. Once this has been done, individuals will be equipped to make the best decision for themselves, their situations, and their level of technical ability. This article seeks to explain foundational security terminology, explain modern threats online, and offer basic security strategies so that individuals can devise their own strategies to protect their privacy.</p>
+
+    <h2 id="privacy-vs-security">Privacy vs Security</h2>
+    <p>The most important words in all of this are privacy and security. Therefore, it's only fitting to begin by properly defining them.</p>
+
+    <h3>What is privacy?</h3>
+    <p>Privacy is the default state of others not knowing where we are, what we are doing, or what we are thinking.</p>
+
+    <h3>Why is privacy important?</h3>
+    <p>Privacy is a fundamental human right implied in multiple parts of the US constitution including the 4th amendment's right against unreasonable searches and seizure and the 5th amendment's right to remain silent. Most people actively exercise their right to privacy every single day when they close the door to use the restroom, draw the curtains at night, or put a passcode on their phone. Most people also dislike the feeling of people peering over their shoulders while their using their phones.</p>
+    <p>Privacy matters because, as we've seen in the last three decades since the dawn of the world wide web, our personal information grants entities tremendous power which can then be exercised over us, on both a personal and societal scale. Imagine the harm someone could do knowing your social security number, first and last name, and credit card information. It's very important that such information be kept private. Now imagine the harm a state actor could with personal information (personal beliefs and location data) about individual targets.</p>
+
+    <h3>What is security?</h3>
+    <p>Security is the freedom from potential threat or harm including the measures one takes to ensure this freedom.</p>
+    <p>Online, it is used to reference the broad tools, methods, and processes one might use to protect something valuable. In this sense, valuables could include banking information, social security numbers, contact information, employment history, or home addresses, for example. Having such information open and available to anyone exposes you to multiple threats including identity theft, credit card fraud, harassment, stalking, or burglaries.</p>
+
+    <h3>The Most Important Thing About Security</h3>
+    <p> <strong>Nothing is 100% Secure:</strong> Given unlimited time and resources, any form or depth of security is breakable. The goal is to make your system impenetrable enough to deter any malicious actor or impenetrable enough to exhaust the resources of any adversaries you may have.
+    </p>
+
+    <h2 id="opsec-explained">Opsec Explained</h2>
+    <p>Opsec, or operations security, are the specific processes or countermeasures one might employ to secure something. For example, one's use of opsec may entail email encryption, not using certain pieces of technology, or specific rules about what information they share online such as not posting personally identifiable information, not uploading any personally identifiable images, or scrubbing metadata from photos posted online.</p>
+    <p>There are 5 main processes in order to determine which countermeasures will provide the best security.</p>
+    <ol>
+        <li>Identification of Critical Information</li>
+        <li>Analysis of Threats</li>
+        <li>Analysis of Vulnerabilities</li>
+        <li>Assessment of Risk</li>
+        <li>Application of Appropriate OPSEC Measures</li>
+    </ol>
+
+
+    <h3>Threat Modeling &amp; Analysis</h3>
+    <p>What is it that you're trying to secure and from whom?</p>
+
+    <h4>What...</h4>
+    <p>
+    Financial Information?
+    <br>Birth Dates?
+    <br>Contact Information?
+    <br>Home Addresses?
+    <br>Employment History?
+    <br>Personal Beliefs
+    <br>All personal information?
+    </p>
+
+    <h4>From whom...</h4>
+    <p>
+    Thieves?
+    <br>Hackers, Malware, Phishing Attempts?
+    <br>Family Members, Angry Ex-partners, Stalkers?
+    <br>Advertisers/Marketing Companies?
+    <br>Mass Surveillance from... Internet Service Providers? Online Companies and Services? Governments?
+    <br>Targeted Surveillance from.. Internet Service Providers? Online Companies and Services? Governments? Individual Adversaries?
+    </p>
+
+    <h4>Risk assessment...</h4>
+    <p>
+    How competent are these adversaries?
+    <br>What are ways they could do you harm?
+    <br>What is their motivation?
+    <br>What are their goals?
+    <p>Once these questions have been answered, you can then begin to employ effective countermeasures.</p>
+
+    <h2 id="modern-threats">Modern Threats</h2>
+    <p>The modern web is a spooky place. Tracker scripts run amok on literally every website. The NSA is collecting as much web traffic as possible through their Stellarwind, PRISM, and Five Eyes programs. And the most popular websites are owned by centralized entities that collect whatever data they can get their hands on.
+    <ul style="padding:0;list-style-type:none;">
+        <li style="padding-bottom:5px;"><strong>Telecom Companies:</strong> Mass Surveillance (Call Logs, Web History, Geolocation Tracking)</li>
+        <li style="padding-bottom:5px;"><strong>Corporations:</strong> Mass Surveillance (Banking Information, Names, Dates of Birth, Product Interactions)</li>
+        <li style="padding-bottom:5px;"><strong>Governments:</strong> Mass Surveillance (Everything shared from telecoms and corporations), Cyber Warfare</li>
+        <li style="padding-bottom:5px;"><strong>General Hacking:</strong> Malware, Ransomware, Scams, and Phishing Attempts</p></li>
+    </ul>
+
+    <h2 id="security101">Security 101</h2>
+
+    <h3>Attack Vectors and Minimalism</h3>
+    <p>One of the most effective opsec practices, regardless or your threat model, is minimalism.  Simply put, the larger the attack surface you have, the more vulnerable you are. This attack surface in a software environment is the sum of all the different attack vectors, or ways an unauthorized user can potentially do you harm. For this reason, keeping the attack surface as small as possible is basic opsec.</p>
+    <p>In practice, this means you should limit the number of devices you own, the number of software you use, and the number of accounts you have to an absolute minimum. Any bloat or unnecessary attack vector just weakens your security and leaves you more vulnerable to harm. Actionable steps you can take right now is deleting every unused account you have and deleting any unused apps from your devices.</p>
+    <p>In my opinion, this is the greatest security practice in isolation. Even the most knowledgeable cybersecurity experts can still fall victim to phishing attempts, social engineering, or email/website spoofing due to momentary lapses in attention. But what if you don't do online shopping or don't have any online accounts? What information would you even give over?</p>
+    <p>For similar reasons, IoT devices such as Amazon Alexa, Ring Doorbell, Smart Watches, Smart Fridges, and pretty much anything that connects to the internet is an inherent threat to your privacy and security. I pick on IoT devices specifically because in my view they are little more than gimmicks that offer little to no added convenience over standard internet devices like computers or smartphones. They are a complete nonessential. <a class="citation" href="https://www.theverge.com/2019/10/21/20924886/alexa-google-home-security-vulnerability-srlabs-phishing-eavesdropping">And they also have more privacy and security related concerns to be wary of.</a></p>
+
+    <h3>Passwords and 2FA</h3>
+    <p>Authentication is a fundamental security concept. It determines who has access to what. If you want to secure your information, then you need to have tight locks on who can access what. This is what passwords do. Passwords are the key to the door that guards the accounts that hold your information. Except in this scenario, the door and the lock are only as strong as that key that unlocks it and how well hidden it is. The strength of your passwords, and your ability to keep them safe, are what determines the degree of difficulty someone has in accessing your accounts.</p>
+
+    Can your password be guessed?
+    <br>Is it the same <a class="citation" href="https://www.wired.co.uk/article/disney-plus-hack-credential-stuffing">password used on another site</a>?
+    <br>Can it be cracked with a dictionary attack?
+    <br>Can it be brute forced?
+    <br>Can someone just look over your shoulder?
+    <br>Could it be compromised via a social engineering attack?
+    <p>If you actually know your password from memory, the answer to all of these questions is probably <em>yes</em>.</p>
+    <p>In order to mitigate these attacks, passwords should be long (as long as permitted but at least around 20+ characters or so), unique (not reused by other accounts), and completely random. But remembering such a password, especially unique ones for multiple accounts, is impossible, right? Right.</p>
+
+    <h4>Password Managers</h4>
+    <p>This is why you need a password manager. A password manager is software that stores login credentials for easy access, allowing you to choose whatever password you want without having to memorize it. Authorization is handled by a single master password. With this model, your password cannot be guessed or cracked because it's long and random. It also cannot be pulled from a list of previous breaches. Additionally, social engineering attacks and shoulder surfing will be far less likely as you yourself don't even know your own password. On the downside, it still wouldn't prevent phishing attacks or keylogger attacks. In order to mitigate such attacks, change these randomized password regularly.</p>
+    <p>This introduces other security vulnerabilities, though, right? You're literally putting all your eggs in one basket? Yes, this is true, but these risks can be mitigated by other practices that I'll cover later (such as device encryption and compartmentalization). An attacker gaining access to your password manager is still unlikely on the surface though, just because any proper cloud-based password manager will hash your master password when logging in so as to not store it in plain text. Also, offline password managers allow you to lock your database at designated periods rendering it useless even if the user is still logged into the computer.</p>
+    <p>Overall, though, using a password manager offers far more security despite this rather large risk. First and foremost, it's important that you pick a long passphrase, while incorporating as wide a percentage of numbers and special characters as possible while still being easy to remember. For example, a good one would be <em>MD_teacH-isthetruuPK_luffY2sleep4</em>, a reference to my favorite anime One Piece. Practice it enough and attempt to commit it to muscle memory over time. Inside jokes are an even better subject of passphrases as they aren't easily guessed or googlable.</p>
+    <p>Good password managers are KeePassXC and Bitwarden.</p>
+
+    <h4>Security Questions</h4>
+    <p>Lie! When it comes to security questions, lie like never before! Security questions, or insecurity questions, are perhaps the dumbest opsec out there if you tell the truth. You do not want an answer someone could look up about you because security questions can be used to reset the password of an account. If a website asks you what your mother's maiden name is, respond with a random string of characters as long as the answer permits. Store the fictional answer in your password manager.</p>
+
+    <h4>Two-Factor Authentication</h4>
+    <p>2FA, or two-factor authentication, is like an extra layer of authentication security. In such a scenario with 2FA activated, compromised login credentials wouldn't be enough to compromise an account. This is because in order to login you would first have to input the OTP, or one-time password, provided by the 2FA app associated with the account.</p>
+
+    <p>2FA is very good, but only if done by an app. SMS-based authenticators are a ridicoulous security vulnerability. <a class="citation" href="https://reclaimthenet.org/twitter-ceo-jack-dorseys-twitter-account-hacked/">Just ask Twitter CEO Jack Dorsey</a>. The reason why two-factor by SMS is so bad is primarily because of sim-swap attacks - a targeted social engineering attack where an attacker gathers information about a victim in order to impersonate the victim before their mobile telephone provider in an attempt to have the victim's phone number ported a device controlled by the attacker. Once the attacker has access to the victim's phone number, he gains access to any account linked to the number via SMS-based 2FA. This is just one prevalent attack. Others include infecting a mobile device with malware to gain remote access, and resetting accounts from there. Moreover, with SMS being an insecure messaging protocol, messages such as one-time passwords can be intercepted via man-in-the-middle attacks.</p>
+    <p>For 2FA apps, andOTP and Aegis are good on Android as is Tofu on iOS. Hardware based 2FA such as Nitrokey is even more secure, but over-kill for the average person.</p>
+
+    <h3>Open-Source, Security Audits, and the Cloud</h3>
+    <p>When I recommended the software in the last section, why did I do it? What are the criteria I set?</p>
+    <p>One of the main criteria is whether or not a tool is open-source or not. This is because large and reputable open-source projects, especially KeePass, are constantly being probed and inspected by independent security researchers. Also, most people who create open-source application do so because they have little to no profit motive, making it less likely for them to collect your personal information, let alone attempting to monetize it. And even if it could, you or someone else could inspect the code for yourself to ensure it's not "phoning home" or making unnecessary connections.</p>
+    <p>Another good criterion is whether or not a software has been the subject of an independent security audit. If a security tool, such as a password manager, is not open-source and has never been audited, this should be a massive red flag. Nobody has been able to guarantee the authenticity of the tool. Bitwarden is an open-source password manager that <a class="citation" href="https://help.bitwarden.com/article/is-bitwarden-audited/">proudly displays the results of their third-party security audit</a>. They also have a public bug bounty program, offering payment for individuals who are to find vulnerabilities in their code. This is a very good sign, and surely one to trust.</p>
+    <p>One downside of Bitwarden, however, is that it's cloud-based. Connecting anything to the internet opens doors for vulnerability because you could be compromised without the attacker needing physical access to your device. If they were to compromise your credentials, they could access your password database from anywhere in the world. For this reason, KeePassXC is preferred from a security standpoint as your database is just a file on your computer that cannot be accessed from the internet.</p>
+
+    <h3>Adblocking &amp; Scriptblocking</h3>
+    <p>Most of the malicious content on the internet is injected into websites in a similar manner: third party scripts and content delivery networks. These two delivery methods are responsible for annoying pop ups and ads, malware, and malicious tracking software. Luckily there are rather simple solutions to mitigate all of them in one fell swoop.</p
+    <p>For most users, malicious advertisements and content delivery networks can be blocked rather easily using web browser extensions such as <a class="citation" href="https://addons.mozilla.org/en-US/firefox/addon/umatrix/">uMatrix</a>, <a class="citation" href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">uBlock Origin</a>, and <a class="citation" href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">Decentraleyes</a>.</p>
+    <p>For more advanced users, entire domains can be blocked on a device or network level via <a class="citation" href="https://github.com/StevenBlack/hosts">host blocking</a>.</p>
+
+    <h3>Compartmentalization</h3>
+    <p>Compartmentalization is the opsec strategy of not putting all your eggs in one basket so that in the event of a breach, damage is limited to the confines of that single compartment. Compartmentalization can be applied in any of the following ways:</p>
+    <ul>
+        <li><strong>Do not reuse the same email address:</strong> If you have one email and it's compromised, so is everything associated with it as most sites allow password resets by email.</li>
+        <li><strong>Choose random, unguessable email addresses void of personally identifiable information for each account and store it in the password manager</strong></li>
+        <li><strong>Create multiple password databases if necessary</strong></li>
+    </ul>
+
+    <p>Obviously, all of this will become very complex if repeated too long. If this is the case just return to the first opsec rule to simplify it. Just reduce the number of accounts you have!</p>
+
+    <h3>Encryption</h3>
+    <p>Encryption is the go-to security measure when ensuring the confidential authorization aspect of the CIA (Confidentiality-Integrity-Availability) triad of security. Different types of encryption are used depending on the method of data transfer, data access, or data storage.</p>
+
+    <h4>Device Encryption</h4>
+    <p>Encrypting a physical device is a common solution for securing data-at-rest, or data that is not traveling over the internet or any network. Common tools for encrypting data-at-rest include:</p>
+    <ul>
+        <li>Passcodes on a phone, laptop, or desktop</li>
+        <li>Full disk encryption</li>
+        <li>Folder or file encryption</li>
+    </ul>
+
+    <h4>Communication Encryption</h4>
+    <p>Encrypting data which travels over a network is a bit different. Commonly used to prevent <a class="citation" href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">Man-in-the-middle attacks</a>, end-to-end or point-to-point encryption make use of public and private key pairs to safely transfer data. A public key holds the information that will travel across a network, but in an encrypted format that is completely unreadable to those who may come across it, while the matching private key holds the code to decrypt the public and make it readable again. This private key is only ever stored on a device and never travels across networks. A common end-to-end encryption protocol is the <a class="citation" href="https://en.wikipedia.org/wiki/Signal_Protocol">signal protocol</a> which is used in the popular Signal and WhatsApp messengers.</p>
+
+    <h4>Web Traffic Encryption</h4>
+    <p>In order to encrypt web traffic, protocols such as HTTPS and TLS are the most common ones. HTTPS, or Hypertext Transfer Protocol Secure, encrypts common web traffic using TLS, or Transport Layer Security. HTTPS ensures authentication and protects against eavesdropping, tampering, and interference by attackers between a client and server. Likewise to end-to-end encryption, it is also primarily used to protect against Man-in-the-middle attacks.</p>
+
+    <h3>VPNs and Tor?</h3>
+    <p>Virtual Private Networks act as an encrypted tunnel between your IP address and theirs. From there, all traffic coming from your IP address appears as coming from the IP address of the VPN. Depending on your threat model, VPNs can play a role in your opsec.</p>
+
+    <p>VPN uses cases:</p>
+    <ul>
+        <li>Geolocation spoofing (to access region locked content)</li>
+        <li>Hide Your IP from Websites</li>
+        <li>Hide Your Web Traffics from Your ISP</li>
+        <li>Torrenting</li>
+    </ul>
+
+    <p>Things to be aware of:<br>
+    Using a VPN means that not only does the VPN/VPS provider know your IP address, but they also have a log of your web history similar to an ISP. All VPNs claim a strict no log policy, but this simply cannot be verified. Whether or not a VPN company logs or not can best be checked by the laws of the jurisdiction in which they operate.</p>
+
+    <p>What To Look For</p>
+    <ul>
+        <li>Anonymous sign up</li>
+        <li>Anonymous payment</li>
+    </ul>
+
+    <p>Mullvad is an example of a VPN provider who meets these requirements. You give no personally identifiable information upon sign up including no names, no usernames, and no passwords. Instead, they give you a randomly generated number that handles log in. Bitcoin payment is also available.</p>
+    <p>Tor Browser Bundle, on the other hand, is a hardened variant of the Mozilla Firefox Web Browser which routes and encrypts all traffic through various relays with the goal of making impossible the identification of the source of an individual web request. For the average user, Tor probably isn't necessary for any use beyond web searches as it will hide your search history from your ISP. Using Tor to login to a website pretty much defeats the purpose and it's not suitable for torrenting.</p>
+
+    <h2 id="takeaways">Takeaways</h2>
+    <ul>
+        <li>Minimize the number of devices, apps, and accounts you have</li>
+        <li>Use a password manager with unique, random, and 20+ character long password for each account</li>
+        <li>Prefer reputable open-source projects where possibl</li>
+        <li>Prefer local hosting over cloud-based services</li>
+        <li>Block 3rd party scripts and trackers when browsing online</li>
+        <li>Compartmentalize information to reduce the impact of attacks and breaches</li>
+        <li>Encrypt, encrypt, encrypt</li>
+        <li>VPNs and Tor are not necessary for everyone</li>
+    </ul>
+
+    <h2>What Next?</h2>
+    <ul>
+        <li>For in-depth info on topics introduced in this article: <a class="citation" href="https://github.com/cryptoseb/cryptopaper/">the crypto paper</a></li>
+        <li>Learn more about threat mitigation and security practices: <a class="citation" href="https://wiki.installgentoo.com/wiki/Security">/g/ security</a></li>
+        <li>Private software recommendations: <a class="citation" href="https://digdeeper.neocities.org/">digdeeper</a></li>
+        <li>For in-depth guides: <a class="citation" href="https://ssd.eff.org/en/taxonomy/term/362/">eff surveillance self-defense</a></li>
+        <li>For in-depth video tutorials: <a class="citation" href="https://invidio.us/channel/UCjr2bPAyPV7t35MvcgT3W8Q">the hated one</a></p></li>
+    </ul></li>
+    </html>
+  </item>
+  <item>
     <title>blockchain and the open web</title>
-    <link>https://beffiom.github.io/site/blog/blockchain-and-open-web.html</link>
+    <link>https://beffiom.tech/blog/blockchain-and-open-web.html</link>
     <description>the world wide web is finished!</description>
+    <html>
+	<h2 id="introduction">Introduction</h2>
+	<p>The World Wide Web is dead.</p>
+	<p>Sorry, Tim Berners-Lee. Your dream of a decentralized web has not come to be with the World Wide Web. The domain name system is now controlled by a handful of companies and most internet users are using entirely centralized platforms in the form of social media, search engines, and SaaS subscriptions.</p>
+	<h2 id="centralization-sucks">Centralization Sucks</h2>
+	<p>Unfortunately, the current make-up of the web is largely centralized. This means that we all congregate in a central place where a single entity controls everything in that place. On the internet, almost every popular service is centralized from YouTube to Facebook to Netflix.</p>
+	<p>The main issue with centralization is consolidation of power. YouTube controls the platform. They make all the decisions and can choose to limit user freedom however they wish. They choose the layout, the styling, the recommended content, and most importantly, who can and who can&#39;t use the platform.</p>
+	<p>The second issue with centralization is the consolidation of information. Facebook controls all the buttons and all the web forms. This makes data mining a simple task. Everything they may want to capture can easily be identified for use in algorithms, automating the process. Not only do you have to trust Facebook not to share information with others, they also store this information in a centralized location which is a security concern. This consolidation of information makes centralized servers with sensitive data a prime target for malicious hackers.</p>
+	<p>In general, centralized platforms disproportionally benefit the central power. The companies.</p>
+	<p>Contrast this with a decentralized protocol like email or internet relay chat (IRC). Everybody can use it. If you don&#39;t like the features offered by one client, you can choose another, or even build your own if you know how. You can choose one that looks the coolest or one that doesn&#39;t collect information about you or one with the tightest security. You can do all of this without missing out on the central service or content offered by it.</p>
+	<p>Alternatively, we can look at federated networks like Fediverse consisting of Mastodon, PeerTube, Diaspora, and PixelFed, among others. Federation can allow instances. Each instance can set their own rules in order to cultivate the type of community that they want. Then, all these instances or communities can interact with one another within the larger network.</p>
+	<p>This distribution of power means there is no single point of failure and users have more freedom about how they interact with the service. It also allows information to be distributed among various entities preventing a prime target from existing.</p>
+
+	<h2 id="a-new-web">A New Web</h2>
+	<h4 id="security-first-decentralized-ad-free-blockchain-ledgers-">Security First! Decentralized! Ad-Free! Blockchain Ledgers!</h4>
+	<p>A handful of companies should not exist as gatekeepers to the internet. These gatekeepers come in the form of ISPs, search engines, domain name system (DNS) registrars, and more recently centralized social hubs like YouTube and Facebook. This is the main challenge to be addressed by an open web.</p>
+	<p>ISPs, being the first gatekeepers, are a big issue, but won&#39;t be covered in-depth in this article. This is mostly about the currently flawed structured of DNS.</p>
+	<p>For those unaware of how DNS works, a website is hosted on a server with an IP address. This web server can then be connected to the internet (which is just a giant interconnected network of servers and devices). Anybody with an internet connection who knows your IP address can access your site. Since remembering individual IP addresses is too difficult, we give them names which redirect to the IP addresses using DNS servers which contain a list of domain names and their corresponding IP addresses. For example, you can access DuckDuckGo via their domain <a class="citation" href="https://duckduckgo.com/">duckduckgo.com</a> or their IP address <a class="citation" href="http://176.34.131.233">176.34.131.233</a>.</p>
+	<p>The current structure of the domain name system exists so that companies, called registries can own top-level domains such as <code>.com</code> if approved by the nonprofit <a href="https://www.icann.org/">ICANN</a>. Then other companies can own the rights to domain names of which users can access and buy. But this doesn&#39;t give you full control. Your DNS registrar such as GoDaddy or NameCheap still owns the domain name, they&#39;re just letting you use it. This means that they can move it or take it away from you.</p>
+	<p>This has to change. Users should have full control over their domains meaning they should be the sole owners.</p>
+	<p>Blockchain domains can solve this issue. Blockchain is a distributed technology that stores records on a &quot;blockchain&quot; and links them all cryptographically. Your domain is an asset on the blockchain that can be accessed by anyone, but only controlled by you. It sits in your digital wallet and websites associated with it can only be changed with a passphrase or keyfile. However, rather than the domain redirecting to an IP address, it would redirected to the associated wallet address where the web server is stored. The result is a website that only you can put up and only you can take down.</p>
+
+	<h2 id="open-standards">Open Standards</h2>
+	<p>Centralized content hubs can be addressed by strong open web protocols.</p>
+
+	<h3 id="communication">Communication</h3>
+	<h4 id="improving-email-irc-sms-chat-applications">Improving Email/IRC/SMS/Chat Applications</h4>
+	<p>Phone numbers and even email addresses have become somewhat of an antiquated concept. Email, IRC, and SMS are security nightmares. Independent chat applications are the most secure and most feature-rich, but they have a big problem. None of them work with one another! If I have one friend who uses Telegram, another who uses WhatsApp, and another who uses Signal, then I need three apps. No thanks!</p>
+	<p>Future communication protocols should seek to erase email, irc, sms, and chat apps altogether. Messages should be end-to-end encrypted by default (sorry world governments, privacy is not a good trade-off for &quot;&quot;&quot;security&quot;&quot;&quot;&quot;!). Everyone should have their own unique identifier, a username. People should be able to use whichever front-end chat client to interface this protocol they choose and they should be able to communicate with anyone regardless of which client they may choose.</p>
+	<p><a class="citation" href="https://xmpp.org/about/">XMPP</a> and <a class="citation" href="https://matrix.org/">Matrix</a> are the closest examples of this.</p>
+
+	<h3 id="content-marketplace">Content Marketplace</h3>
+	<h4 id="replacing-youtube-netflix-spotify-amazon">Replacing YouTube, Netflix, Spotify, &amp; Amazon</h4>
+	<p>Imagine a decentralized content platform where creators had full control over their content. All their information and content added to a distributed blockchain ledger, controlled by no one but them. They&#39;re the only ones who can remove their content from the platform.  Imagine this with no fees to a middle man for hosting their content (as with Amazon, YouTube, Spotify).</p>
+	<p>Creators can upload videos, music, documents, and ebooks. With monetization built-in, viewers can choose to &quot;tip&quot; their favorite creators, with creators receiving 100% of that tip. Creators can also choose to paywall certain forms of content, with access being withheld to only users who pay. Viewers can, again, select their client of choice. Perhaps, there may even come to be clients that specialize in user videos such as YouTube, movies such as Netflix, music such as Spotify, or ebooks such as Amazon.</p>
+	<p>All content is DRM-free on a platform with no ads.</p>
+	<p>This is a digital marketplace. This is <a class="citation" href="https://lbry.com/what">LBRY</a>.</p>
+
+	<h3 id="social-media-">Social Media?</h3>
+	<h4 id="replacing-facebook-instagram-twitter-reddit-linkedin">Replacing Facebook, Instagram, Twitter, Reddit, &amp; LinkedIn</h4>
+	<p>If you read my social media bad article, you know that I am no fan of social media. But I actually think social media can be done well, if a few criteria can be met first. The biggest problems with social media are the massive invasions of privacy, the like button reinforcing human ego, and advertisements. With this in mind, any new social media should have the following traits:</p>
+	<ol>
+	   <li>Open-Source</li>
+	   <li>Decentralized</li>
+	   <li>No Likes</li>
+	   <li>No Ads</li>
+	</ol>
+
+	<p>One social media that does really well with most of these is <a class="citation" href="https://joinmastodon.org/">Mastodon</a>, a federated &amp; decentralized microblogging platform similar to Twitter. However, I believe Mastodon still records the number of toots (shares) and favorites.</p>
+
+	<h3 id="personal-sites-and-distributed-content">Personal Sites and Distributed Content</h3>
+	<p>Everyone should have their own website!</p>
+	<p>Web hosting and implementing solutions for blogs should as simple as setting up a medium or write freely account.</p>
+	<p>Recommendations should be human-based, not algorithm-based with everyone having a page of links to their favorite sites. Switching between dark and light mode should be a breeze no matter the site. Content on these sites should be distributed via <a class="citation" href="https://en.wikipedia.org/wiki/RSS">RSS</a>, <a class="citation" href="https://en.wikipedia.org/wiki/Atom_(Web_standard">Atom</a>, or a similar standardized  syndication technology.</p>
+	<p>Oh, and no more JavaScript!</p>
+	<img src="../img/javascript-bad.jpg" alt="javascript bad">
+	<p>Client-side scripting in web browsers is cancerous enough, but at least have a better &quot;web&quot; language. Maybe one without numerous security vulnerabilities like SQL injection and cross-site scripting.</p>
+
+	<h2 id="takeaways">Takeaways</h2>
+	<p>The World Wide Web has become a corporate cesspool. A new web should be made that ensures decentralized, security-focused protocols, incorporating blockchain technology to do so.</p>
+
+	<h2 id="more-info">More Info</h2>
+	<p><a href="https://onezero.medium.com/why-decentralization-matters-5e3f79f7638e">Why Decentralization Matters</a></p>
+    </html>
   </item>
   <item>
     <title>social media bad</title>
-    <link>https://beffiom.github.io/site/blog/social-media-bad.html</link>
+    <link>https://beffiom.tech/site/blog/social-media-bad.html</link>
     <description>refusing to use social media</description>
+    <html>
+	<h2 id="attention-economy">Introduction</h2>
+	<p>
+	Hating social media is nothing new.
+	</p>
+
+	<p>
+	It's been integrated into the foundations of modern life in less than 15 years despite the detractors at every step. In hindsight, these detractors had good reason to be skeptical. We've allowed this before understanding the impact that it has on ourselves or broader society. With many a new technology, we often enthusiastically incorporate it into our lives while only focusing on its positive aspects. We should recognize that technology often has severe and lasting political, social, and economic implications and tame our haste before adopting new ones.
+	</p>
+
+	<p>
+	In this article, I'll address these implications by discussing the harms of social media.
+	</p>
+
+	<h2 id="attention-economy">The Digital Attention Economy</h2>
+	<p>
+	All the economists in Silicon Valley are talking about it; the idea that you can make money simply by attracting (or distracting) people's attention. Not only can you make money, you can create some of the most profitable businesses in human history.
+	</p>
+
+	<p>
+	The Digital Attention Economy revolves around industries that make money via advertisements, such as social media. Based on this, how would a company operating on this model seek to increase revenue? They could either attract more users or encourage existing users to use their service for longer periods of time. But they come to a roadblock. They realize that their service will eventually experience diminishing returns after a period of prolonged use, but they want to attract users for longer times, regardless. Well, they hire masters and doctorate level psychologists who understand and can exploit human addiction through feedback loops or slot-machine style hits of dopamine by quantifying social interaction via likes, shares, and comments (see more in the <a href="#upcummies" class="citation">Upcummies</a> section). This is a fundamental distinction from earlier technologies. Rarely did technologies of the past have a financial incentive to keep users engaged as long as possible. Makers of a toaster or refrigerator really do not care how users use their products. Their primary mode of revenue is made at the point of sale. They just want the product off the shelf. This same observation is true of consumer goods such as clothes, books, or video games. However, with the advent of certain forms of media, namely television and radio, stations began realizing that the price of advertisements will go up depending on the number of viewers or listeners and how long each user was engaged. Before the internet, the latter metric was not easily understood. Gathering information about how television viewers or radio listeners used the product was difficult and often costly and time-consuming with them having to recieve feedback via polls. The internet made this easy.
+	</p>
+
+	<p>
+	With just a couple lines of JavaScript connected to a backend database and probed with data analytics software, companies could now quite easily measure not only the number of users, but also how long the average user spent on the site and what specifically they were looking at. This is the sort of information that sees the value of advertisements skyrocket. But there was still a natural limitation to this.
+	</p>
+
+	<p>
+	Taking a desktop with you everywhere was entirely impractical. This created a physical and social barrier restricting the amount of time a user could spend interacting with any form of online content. In the years since the 2007 launch of the iPhone, smartphones have absolutely demolished this barrier. We can connect to the internet anywhere at anytime. In bed. In waiting rooms. During meetings. During class. During commutes. On the toilet. Anywhere at anytime. I recognize that many will argue that this breakthrough has made their lives easier, but the saying 'with great power comes great responsibility' rings as true as ever in this case. The harmful side effect of this tremendous power is that for the first time, companies have a profit motive in wasting your time and unlimited means to actually do so.
+	</p>
+
+	<p>
+	Welcome to the Digital Attention Economy <a target="_blank" href="https://www.nngroup.com/articles/attention-economy/" class="citation">[1]</a>.
+	</p>
+
+	<p>
+	More to this point, in his book 'Digital Minimalism', Cal Newport explains that the users who get the most out of technology are the ones who use it the least. This is because Digital Minimalists take the time to analyze each service and make the decision on whether or not to add it into their lives based on the values they hold. They are willing to weigh the risks and rewards and positives and negatives of each service. As a result, they realize they can maximize the rewards of technology while minimizing the risks, often by decreasing the time spent using them. For most Digital Minimalists who value their time, they end up setting strict rules and limitations about social media use or they abstain from using it altogther. This is the case because these apps are designed to suck your attention and waste your time.
+	</p>
+
+
+	<h2 id="advertisements">Advertisements</h2>
+	<blockquote><em>Senator, we run ads</em></blockquote>
+	<p>
+	Facebook CEO Mark Zuckerburg plainly states in a 2018 Senate Committee Hearing <a target="_blank" href="https://invidio.us/watch?v=n2H8wx1aBiQ" class="citation">[2]</a>. Yes, their business model is in selling advertisements. More specifically it's:
+	</p>
+
+	<ol>
+	   <li>Collect as much user data as possible</li>
+	   <li>Use this data to sell highly-lucrative, highly-targeted ads</li>
+	   <li>Increase the time users spend using their service exponentially increasing the revenue generated by these ads</li>
+	</ol>
+
+	<p>
+	Now, contrast this with your expectations as a user. You just wanna talk with your friends or maybe stay up to date with their lives, but you certainly have no intention to spend in excess of 4-5 hours a day on your phone using social media. The business model, and primary goal, of social media companies is to get you to view their content as long as possible. They even exploit many vulnerabilities in our psychology to accomplish this. These two goals are in direct opposition. Their goals have little to do with serving a market need or providing value to users. Their goals have little to do with connecting people, which is how many social media companies market themselves. This is simply about generating profit with little to no concern for the wellbeing of their users (more on this later).
+	</p>
+
+	<p>
+	As previously stated, those who make the most of technology are the ones who take the time to compare the values of the technology with values of their own. One value that I hold is that I am very much against our culture of <a target="_blank" href="https://en.wikipedia.org/wiki/Conspicuous_consumption" class="citation">conspicious consumption</a>. As a result, I do not like ads. Fundamentally, I believe that less can be more, especially when it comes to our material possessions.
+	</p>
+
+	<p>
+	Ads are designed to sell products. I don't want to be sold any products as I am very content with what I already own. If I truly need something, it will become apparent and I will seek it out myself. The people who design these ads know that people need very little and inherently want little more than that. Thus, marketers employ various techniques taking advantage of our psychological vulnerabilities to convince us that we really want something, or that a product is even necessary. And it often works but not without its effects on the quality of our lives.
+
+	<p>
+	A 2012 BYU meta-analysis of 47 studies observing the relation between materialism and well-being concluded that "materialism was significantly related to lower psychological well-being" and "it appears that valuing money (and material goods) is a consistent way to diminish happiness" <a target="_blank" href="https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=4863&context=etd" class="citation">[3]</a>.
+	</p>
+
+	<p>
+	"It stands to reason that this will become an increasingly pervasive problem as the technology makes it easier for individuals to see what they could have, 'if only.'," the findings continue.
+	</p>
+
+	<p>
+	This superficial lust for more and more and bigger and better things sets a constantly moving target that is often unreachable. It even distracts us from taking the necessary time to express gratitude for all that we already have. This is just one reason many of us are so discontent with our lives.
+	</p>
+
+	<p>
+	"But ads don't affect me," you might say. Perhaps you are, in fact, truly an anomaly or even a Buddhist monk of sorts who has learned to master and control your willpower. But, generally speaking, ads influence consumer behavior. If this were not the case then social media companies would not have become some of the most profitable businesses in human history as their entire business models revolve around advertisements.
+	</p>
+
+	<h2 id="upcummies">Upcummies and Their Consequences</h2>
+	<blockquote>
+	   <p><em>The tycoons of social media have to stop pretending that they're friendly nerd gods building a better world and admit they're just tobacco farmers in T-shirts selling an addictive product to children. Because let's face it, checking your "likes" is the new smoking.</em></p>
+	   <p><b>Bill Maher</b><br><a target="_blank" href="https://invidio.us/watch?v=BYDwep9yI8A" font-size="0.5em">New Rule: Social Media is the New Nicotine</a></p>
+	</blockquote>
+
+	<p>
+	So far, I have explained that social media companies have a financial interest in distracting people and forming addictions. Now, I will shift gears and explain how the addiction mechanisms work and the harmful consequences that prolonged social media use has on our mental well-being.
+	</p>
+
+	<p>
+	"This thing is a slot machine", states Tristan Harris holding up a smartphone before Anderson Cooper on 60 Minutes <a target="_blank" href="https://invidio.us/watch?v=awAMTQZmvPE" class="citation">[4]</a>. Tristan Harris is a former Product Manager at Google and a graduate of Stanford University where he worked in BJ Fogg's Persuasive Technology Lab exploring how technology can be used to change the way people think and act. In this interview, he is specifically referring to the reward based model that social media companies employ to keep us constantly "checking in". Everytime we check our phones, we are playing a game.
+
+	<p>Did somebody post something interesting?</p>
+	<p>How many people liked my post?</p>
+	<p>How many messages do I have?</p>
+
+	<p>
+	When we see the reward we wanted, parts of the brain light up and we feel a hit of dopamine-the brain chemical associated with the motivational component of reward-motivated behavior. In this moment, we feel very good.
+	</p>
+
+	<p>
+	This is what we want when we check our phones and there's a good chance we may get it. This is one of the ways we get hooked and social media companies are engineering their products to exploit this. Likes, shares, and follows are just the main mechanism.
+	</p>
+
+	<p>
+	Instagram will also use delayed feedback where they withold notifications for a period and release them all at once to make the sensation when seeing the bigger number tied to your social interactions more pleasurable. Snapchat has a feature called streaks <a target="_blank" href="https://suntrics.com/tech-blogs/longest-snapchat-streak-a-brief-guide/#Snapchat_Streak_Emojis" class="citation">[5]</a> where they give users different features and emoji unlocks for friends who message eachother consistently for days in a row. They are sort of game-ifying the social experience to make their apps your preferred mode of social interaction. Harris goes on to explain the situation with Anderson Cooper.
+	</p>
+
+	<p>
+	Cooper: Is Silicon Valley programming apps or are they programming people?
+	</p>
+
+	<p>
+	Harris: They are programming people. There's always this narrative that technology's neutral. And it's up to us to choose how we use it. This is just not true... They want you to use it in particular ways and for long periods of time. Because that's how they make their money.
+	</p>
+
+	<p>
+	One of the most effective mechanisms are the metrics we are given to interact with people and content. These are likes, shares, comments, friends, and followers. If we make a post, this is what we crave. More likes and more shares indicate that we are doing something correct, people like us, and people like what we are doing. These mechanisms reinforce our desire to be respected, liked, and acknowledged by others. However, this is a very dangerous game. We are quantifying social interaction itself and putting a number next to it. The consequences of this manifest differently on different platforms.
+	</p>
+
+
+	<h3>Instagram</h3>
+	<p>
+	For example, on a site like Instagram which revolves around images and "stories" where people document their lives, this mechanism results in feelings of inadeqaucy caused by the constant comparison of ourselves and our lives to those of our peers. Likes and followers serve as a metric to quantify how "well" we are doing socially. When we see someone on Instagram who seems to have a better life than us or is accomplishing more or has more likes or more followers, we naturally reflect on ourselves in a self destructive manner.
+	</p>
+
+	<p>What am I doing wrong?</p>
+	<p>Why haven't I been able to accomplish what they have?</p>
+	<p>Why am I so lazy?</p>
+	<p>Why am I so ugly?</p>
+
+	<p>
+	This encouraged comparison of ourselves with others reinforced via quantified social interaction of the like button inevitably leads to feelings of inadequacy and it is a key trait of a site like Instagram.</p>
+
+	<h3>Reddit</h3>
+	<p>
+	A site like Reddit works in a similar manner, but the consequences of its like mechanism are very different. This is because Reddit is centered around the sharing of ideas rather than the sharing of photos and lifestyles. As I've explained, humans almost have a primal instinct to be liked and recognized by others.
+	</p>
+
+	<p>
+	On a site like Reddit, your ideas are what garner your approval and they are measured via the upvote button. Maybe you can already see where I'm going, but this problem is made even worse by the makeup of the site. Reddit is a forum style network where you're encouraged to follow "subreddits" or mini forums according to your interests. Coupled with the upvote system, this is a very dangerous setup when one mainly follows politically and ideologically based subreddits.
+	</p>
+
+	<p>The result is confirmation bias, groupthink, and radicalization.</p>
+
+	<p>
+	If you want to be liked, you're more likely to post a message that will be well received by a majority of the community. You want to be upvoted and you don't want to be downvoted. In order to do this, you must first understand what is the common opinion in the subreddit and then tailor your messages around this because you want likes. It's important to note that rarely is this a conscious action. Rather, this is what happens naturally due to our subconscious desire to be liked.
+	</p>
+
+	<p>
+	Over time, your beliefs begin to change and conform to that of the group. These communities and subreddits are what's known as echo chambers. This groupthink will eventually lead to radicalization as you're put in an environment where everyone agrees with one other and little dissent is found because nobody wants to be downvoted. These phenomena are also true of sites like Facebook and Twitter  but it's not as pronounced.
+	</p>
+
+	<h3>Facebook &amp; Twitter</h3>
+	<p>
+	Facebook and Twitter, however, are more dangerous for their ability to create manufactured outrage about current events. Overwhelmingly negative and depressing news events are heavily pushed and promoted on the two sites. Regardless of whether or not the events themselves have any effect on the readers' daily lives, increased consumption of such content will assuredly affect the way they view world - as a dark and dangerous place. This perception of the world will surely have an effect on their actions and how they live their lives. This is why I am not a fan of pushing this notion of an "informed populace" in its conventional sense.
+	</p>
+
+	<p>
+	Simply consuming a ton of information does not make one informed. Especially not when this news is from social media where targeted misinformation campaigns run rampant. Even if all of the information one consumed was completely accurate, I would still advise against seeking out as much information as possible. Similar to the Random Access Memory (RAM) and Random Object Memory (ROM) in our computers, our brains have a finite amount of information they can store and process in a given amount of time. When this limit is surpassed, information overload begins to take place. The internet allows us to receive information and news from any corner of the globe and it is too much to handle. Information overload is the difficulty in understanding an issue and and effectively making decisions as a result of consuming too much information <a target="_blank" href="https://en.wikipedia.org/wiki/Information_overload" class="citation">[6]</a>.
+	</p>
+
+	<p>
+	Basically, when we seek to understand too many things at once, we actually end up not understanding anything. Our brains simply do not have the capacity to make sense of everything we see on the internet, especially if we're spending prolonged periods of time mindlessing consuming information. We don't need to know what Uncle Ted is doing this weekend or what scandal this or that celebrity is involved in or even new events on the other side of the world. We should focus on attempting to truly understand the few things that matter to us. The constant influx of information, most of which is negative, provided by social media makes this near impossible to do.
+	</p>
+
+	<p>
+	Based on this increased propensity for feelings of inadequacy, groupthink, manufactured outrage, and information overload, it is clear to see that social media has had an astoundingly negative effect on our mental well-being as we become more and more addicted. The list doesn't stop there, social media use also increases risk for insomnia as our minds are constantly active in search of gratification as we swipe away into the late hours and early mornings in bed. The blue light emitted by smartphones is also a problem as it messes with our circadian rythm - our natural process of regulating the sleep-wake cycle - resulting in sleep deprivation <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5102460/" class="citation">[7]</a>. Our attention spans have also decreased <a target="_blank" href="https://sites.psu.edu/aspsy/2018/10/21/social-media-attention-span/" class="citation">[8]</a>, causing many of us to have difficulty in properly engaging with long-form content such as books and in-depth articles. Few can stand being bored anymore and we feel the need to constantly be consuming something, usually more simple and more mindless. Many even feel the need to constantly be multitasking in order to feel as if we're not missing out and we're as productive as possible. This is despite the fact that nobody is really good at multitasking <a target="_blank" href="https://www.pnas.org/content/106/37/15583.abstract" class="citation">[9]</a>. As explained with information overload, this tends to have effects opposite of what we desire. All of this results in higher rates of depression and anxiety which has been associated with higher rates of social media use <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904786/" class="citation">[10]</a>.
+	</p>
+
+	<h2 id="privacy">Invasion of Privacy</h2>
+
+	<p>
+	The consquences of social media extend far beyond a personal level. We're beginning to the see the extremely negative impact it has on a broad societal level. This impact is the result of its ability to accurately influence user behavior and install surveillance states across the globe due to the vast amount of user data these companies are able to collect, store, and analyze.
+	</p>
+
+	<p>
+	So what information, exactly, do companies have access to and what do they do with this information?
+	</p>
+
+	<p>
+	Take the time to read the privacy policy of any social media company. If you ignore all the legal jargon, it basically says they have the right to collect whatever information they want, store it for an indefinite amount of time, and share it with anybody they choose. ProPublica, a nonprofit investigative journalist publication, collected more than 52,000 unique attributes that Facebook has used to classify users <a target="_blank" href="https://www.propublica.org/article/facebook-doesnt-tell-users-everything-it-really-knows-about-them" class="citation">[11]</a>. This information ranges from mundane interests such as sports preferences and celebrity crushes to income, restaurants frequented, and the number of credit cards someone may have in their wallets. Facebook even buys data about its users’ mortgages, car ownership, and shopping habits from some of the biggest commercial data brokers <a target="_blank" href="https://www.propublica.org/article/breaking-the-black-box-what-facebook-knows-about-you" class="citation">[12]</a>.
+	</p>
+
+	<p>
+	By using the service, you accept the conditions of having all this information collected about you. Sometimes you don't even have to use the service for a social media company to collect your data with Facebook being known to collect data on users who have never even signed up, through the use of "shadow profiles" <a target="_blank" href="https://www.cnet.com/news/shadow-profiles-facebook-has-information-you-didnt-hand-over/" class="citation">[13]</a>.
+	</p>
+
+	<p>
+	It doesn't take a discerning eye to see that "opting-out" and "privacy controls" are nothing more than bad-faith memes due to the proprietary nature of their software. Nobody externally has access to the source code to ensure that these user information buttons actually do what they say they do, and rarely are companies held accountable by regulation guidelines such as the EU's General Data Protection Rights (GDPR) or the California Online Privacy Protection Act (CalOPPA). The ones who do face punishment are only hit with fines that make up a fraction of their revenue. It's clear to see that they hold no expectation or committment to user privacy and nor do they have much incentive to do so.
+	</p>
+
+	<p>
+	Most people seem to understand all of this, but they just don't care about privacy. Perhaps, they believe that they have nothing to hide because they're not doing anything wrong. This is a fallacy for a number reasons. We all have things to hide. It's why we close the door to use the bathroom or draw the curtains at night. It's why we put passcodes on our phones. It's why we hate people peering over our shoulder when looking at something online.
+	</p
+	>
+	<p>
+	The second part of the argument depends on the legal system of the country you reside. In every country, you can still be arrested despite no wrongdoing. This is because the law doesn't dictate morality. Additionally, even if what you're doing is legal today, this can be subject to change as laws can change as well.
+	</p>
+
+	<p>
+	Okay, but social media doesn't have the power of a government. And maybe people still don't care because these companies just use this information to improve their services and show targeted advertisements, right?
+	</p>
+
+	<p>
+	Wrong!
+	</p>
+
+	<p>
+	This is the information age. Information is power.
+	</p>
+
+	<p>
+	And internet companies, especially social media, have unparalleled insight into the lives of over three billion people (and rising). Not only is it dangerous to consolidate this information in the hands of companies who have no committment to anything but their bottom lines, but most of such information is also made easily available to actual governments. The 2013 Snowden Relevations brought to light the depth of the erosion of our civil liberties. Let's just say that you better have a lot of faith in your government to not abuse this information.
+	</p>
+
+	<p>
+	The American National Security Agency (NSA) has a data sharing program with prominent internet companies called PRISM <a target="_blank" href="https://en.wikipedia.org/wiki/PRISM_%28surveillance_program%29" class="citation">[14]</a>. The NSA, too, has Project XKeyscore comprising of backend databases to store almost all internet traffic and user interfaces to easily query this data <a target="_blank" href="https://en.wikipedia.org/wiki/XKeyscore" class="citation">[15]</a>. Lastly, the US Government additionally shares private information with a host of other governments via The Five Eyes, Nine Eyes, and Fourteen Eyes global surveillance programs <a target="_blank" href="https://en.wikipedia.org/wiki/Five_Eyes" class="citation">[16]</a> with countries all across the world instituting programs of their own.
+	</p>
+
+	<p>
+	The consequences of these surveillance programs have been repeatedly used to squash human rights advocates and journalists who speak out against authoritarian governments in numerous countries including Iran <a target="_blank" href="https://ifex.org/the-state-of-surveillance-in-irans-cyberspace/" class="citation">[17]</a>, China <a target="_blank" href="https://www.cbc.ca/news/technology/chinese-hackers-target-human-rights-groups-citizen-lab-says-1.2830973" class="citation">[18]</a>, Ethiopia <a target="_blank" href="https://www.newyorker.com/tech/elements/hackers-without-borders?verso=true" class="citation">[19]</a>, and the Arab Gulf States <a target="_blank" href="https://features.hrw.org/features/HRW_2016_reports/140_Characters/index.html" class="citation">[20]</a>. In the United States and the United Kingdom, mass data collection resulted in the harvesting and analysis of 50 million Facebook users' data by <a target="_blank" href="https://en.m.wikipedia.org/wiki/Cambridge_Analytica" class="citation">Cambridge Analytica</a> to push targeted political advertisement campaigns, influencing the outcomes of the 2016 US Presidential Election and the 2015 Brexit Referendum, respectively <a target="_blank" href="https://www.politico.eu/article/cambridge-analytica-chris-wylie-brexit-trump-britain-data-protection-privacy-facebook/" class="citation">[21]</a>.
+	</p>
+
+	<p>
+	The former examples show governments' ability to track, intimidate, arrest, and even murder individuals holding any beliefs the government may not like. The latter case, however, is more dystopian than outright brutal. Time to return to psychology.
+	</p>
+
+	<p>
+	Enough information or data points about a certain individual can allow certain inferences to be made about that individual. For example, a collection of posts or likes from one's social media can be used to infer beliefs, political affiliations, personality traits, or interests. It can even be used to understand which presentation styles or use of language that individual may be most receptive to, thus allowing for the subtle manipulation of his or her thoughts and behaviors.
+	</p>
+
+	<p>
+	This is the reason why a 2015 Stanford research algorithm, using just 227 of a person's Facebook likes, was enough to be a better predictor of personality than that person's closest friends <a target="_blank" href="https://www.pnas.org/content/112/4/1036" class="citation">[22]</a>. It's also the reason Facebook was able to conduct rather successful mood expirements in 2012 by tweaking the newsfeeds of about 700,000 unknowing users <a target="_blank" href="https://www.nytimes.com/2014/06/30/technology/facebook-tinkers-with-users-emotions-in-news-feed-experiment-stirring-outcry.html" class="citation">[23]</a>. According to New York Times reporter Vindu Goel: "The researchers found that moods were contagious. The people who saw more positive posts responded by writing more positive posts. Similarly, seeing more negative content prompted the viewers to be more negative in their own posts."
+	</p>
+
+	<p>
+	The techniques used by Cambridge Analytica are too complex to properly cover here but <a target="_blank" href="https://www.theguardian.com/technology/2018/mar/17/facebook-cambridge-analytica-kogan-data-algorithm" class="citation">this Guardian article</a> goes in-depth on the develepment of the company's algorithms that assisted them in using likes to manipulate voting behavior.
+	</p>
+
+	<p>
+	The trend, however, is clear. The ability for such companies and governments to manipulate the thoughts and behaviors of their users will increase over time as they develop better machine-learning algorithms to exploit human psychology.
+	</p>
+
+	<h2 id="conclusion">Conclusion</h2>
+	<p>
+	Social media is an existential threat to our democracies, institutions, and civil liberties that simultanously impairs our mental well-being and wastes our time.
+	</p>
+
+
+	<h2 id="sources">Sources</h2>
+	<ul class="link-list" id="source-list">
+	   <li><span>[1]</span><a href="https://www.nngroup.com/articles/attention-economy/">The Attention Economy | Nielsen Norman Group</a></li>
+	   <li><span>[2]</span><a href="https://invidio.us/watch?v=n2H8wx1aBiQ">Senator Asks How Facebook Remains Free, Mark Zuckerberg Smirks: ‘We Run Ads’ | NBC News</a></li>
+	   <li><span>[3]</span><a href="https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=4863&context=etd">Materialism and Psychological Well-being: A Meta-analytical Study | Brigham Young University</a></li>
+	   <li><span>[4]</span><a href="https://invidio.us/watch?v=awAMTQZmvPE">Brain Hacking | 60 Minutes</a></li>
+	   <li><span>[5]</span><a href="https://suntrics.com/tech-blogs/longest-snapchat-streak-a-brief-guide/#Snapchat_Streak_Emojis">A Brief Guide to Snapchat's Hottest Trend | The Suntrics</a></li>
+	   <li><span>[6]</span><a href="https://en.wikipedia.org/wiki/Information_overload">Information Overload | Wikipedia</a></li>
+	   <li><span>[7]</span><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5102460/">Direct Measurements of Smartphone Screen-Time: Relationships with Demographics and Sleep | PLoS ONE</a></li>
+	   <li><span>[8]</span><a href="https://sites.psu.edu/aspsy/2018/10/21/social-media-attention-span/">Social Media & Attention Span | Penn State University</a></li>
+	   <li><span>[9]</span><a href="https://www.pnas.org/content/106/37/15583.abstract">Cognitive control in media multitaskers | Stanford University</a></li>
+	   <li><span>[10]</span><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5904786/">Social Media Use and Depression and Anxiety Symptoms: A Cluster Analysis | American Journal of Health Behavior</a></li>
+	   <li><span>[11]</span><a href="https://www.propublica.org/article/facebook-doesnt-tell-users-everything-it-really-knows-about-them">Facebook Doesn't Tell Users Everything It Really Knows About Them | ProPublica</a></li>
+	   <li><span>[12]</span><a href="https://www.propublica.org/article/breaking-the-black-box-what-facebook-knows-about-you">Breaking the Black Box: What Facebook Knows About You | ProPublica</a></li>
+	   <li><span>[13]</span><a href="https://www.cnet.com/news/shadow-profiles-facebook-has-information-you-didnt-hand-over/">Shadow profiles: Facebook has information you didn't hand over | CNET</a></li>
+	   <li><span>[14]</span><a href="https://en.wikipedia.org/wiki/PRISM_%28surveillance_program%29">PRISM Surveillance Program | Wikipedia</a></li>
+	   <li><span>[15]</span><a href="https://en.wikipedia.org/wiki/XKeyscore">XKeyscore | Wikipedia</a></li>
+	   <li><span>[16]</span><a href="https://en.wikipedia.org/wiki/Five_Eyes">Five Eyes | Wikipedia</a></li>
+	   <li><span>[17]</span><a href="https://ifex.org/the-state-of-surveillance-in-irans-cyberspace/">The state of surveillance in Iran’s cyberspace | IFEX</a></li>
+	   <li><span>[18]</span><a href="https://www.cbc.ca/news/technology/chinese-hackers-target-human-rights-groups-citizen-lab-says-1.2830973">Chinese Hackers Target Human Rights Groups | CBC News</a></li>
+	   <li><span>[19]</span><a href="https://www.newyorker.com/tech/elements/hackers-without-borders?verso=true">Hackers Without Borders | The New Yorker</a></li>
+	   <li><span>[20]</span><a href="https://features.hrw.org/features/HRW_2016_reports/140_Characters/index.html">Online Activists Harassed & Jailed in Arab Gulf States | Human Rights Watch</a></li>
+	   <li><span>[21]</span><a href="https://www.politico.eu/article/cambridge-analytica-chris-wylie-brexit-trump-britain-data-protection-privacy-facebook/">Cambridge Analytica helped ‘cheat’ Brexit vote and US election, claims whistleblower | Politico</a></li>
+	   <li><span>[22]</span><a href="https://www.pnas.org/content/112/4/1036">Computer-based personality judgments are more accurate than those made by humans | PNAS</a></li>
+	   <li><span>[23]</span><a href="https://www.nytimes.com/2014/06/30/technology/facebook-tinkers-with-users-emotions-in-news-feed-experiment-stirring-outcry.html">Facebook Tinkers With Users’ Emotions in News Feed Experiment, Stirring Outcry | The New York Times</a></li>
+	</ul>
+    </html>
   </item>
   <item>
     <title>less can be more</title>
-    <link>https://beffiom.github.io/site/blog/less-can-be-more.html</link>
+    <link>https://beffiom.tech/blog/less-can-be-more.html</link>
     <description>why minimalism works</description>
+    <html>
+	<h2 id="intro">Introduction</h2>
+	<p>
+	Many people believe that minimalism is just about owning a small number of things. The result of minimalism is not neccessarily what's important, it's the method behind it. It's about the thought required to arrive at your answer. The fundamental reason why minimalism has made an impact on my life is because it requires me to really explore things that matter to me and understand why they matter. Once I've accomplished this, it's rather easy to eliminate everything else without feeling like I'm missing out. In order to figure out what things have value and why, I am often forced to think about the difficulties and challenges in my life; problems to solve. But that's only one piece of the puzzle. After identifying things and practices that will solve these problems, I have to ask myself 'why'? Why do these things solve the problem?
+	</p>
+
+	<h2 id="solving-problems">Solving Problems</h2>
+	<p>
+	The answer to this question attempts to understand how and why things work. Often there are parts of any given solution that are worthless or even dehabiliting or preventative in actually solving the problem. This is what we want to minimize. This probably sounds confusing, so I'll give an example.
+	</p>
+
+	<ul class="link-list" id="table-of-contents">
+           <li><b>problem:</b> I want to lose weight</li>
+           <li><b>solution:</b> Join a gym and work</li>
+	</ul>
+
+	<p>
+	To understand why this works (if done successfully) we must first understand how weight works. Well we know there is indeed some genetic component to our wieght, but most of it comes down to the way we live our life. If we are overweight, it can more or less be simplified and attributed to the fact that we eat too much and move too little. This can be solved by going to a gym and changing your diet quite simply because we are making an effort to move more and regulate our eating habits, usually eating less. But you should have noticed my disclaimer at the beginning, "if done successfully."
+	</p>
+
+	<p>
+	There is actually more to the equation than just eating less and moving more. It's the ability to do both of these consistently because results will only be achieved over a long period of time. In fact, this is the most deciding factor on whether we succeed or fail. Joining a gym can work, but it requires too many variables that may be outside of our control decreasing the likelihood that we'll actually follow through with it. We often only focus on the value or results achieved from using something or doing something, failing to recognize the associated costs that may come with.
+	</p>
+
+	<p>
+	Think about it. In the given approach, you are dependent on access to a gym, the ability to pay for it, or access to workout equipment. We may even begin to think we need treadmills, squat racks, or dumbells to acheive a good workout. These are unnesseccary barriers to entry, but more importantly we allow these things to become excuses.
+	</p>
+
+	<p>
+	"I had a long day at work and the gym is 45 minutes away."
+	</p>
+
+	<p>
+	"I'd start working out if only a gym were closer."
+	</p>
+
+	<p>
+	"I can't workout. I don't have the right equipment or shoes or clothes."
+	</p>
+
+	<p>
+	Also, due to the cost of a gym membership it's likely that once you've achieved your goal of losing your weight, you may no longer see the need to continue paying for the gym. Your work is done. This is a big reason why I think a lot of people are able to lose weight, but they end up gaining it back. This method only works for some, and it's not a sustainable approach for the few it does work for. Alternatively, you may falsely believe that sinking money into a gym membership may make you more likely to be held accountable. Let's be honest, we often sign up and pay for things we rarely use.
+	</p>
+
+	<h2 id="why-things-works">Why Things Work</h2>
+	<p>
+	Now, let's analyze a different approach. Think about how a boxer trains. Maybe we've never been a boxer or we're not even a fan of boxing, but many of us have seen the Rocky movies, or a Muhammad Ali biopic, or Hajime No Ippo. Notice how none of these guys lift weights or use treadmills. They have gyms, but the gyms often lack equipment. There's no doubt that guys like Ali or Mike Tyson are some of the most physically fit people. It's because their workouts are simple. There are no barriers to entry.
+	</p>
+
+	<p>
+	Their workouts mostly consist of cardio and bodyweight exercises. Before we were just following a method or doing what people do without understanding how or why it works. This blinds us to the reality that the same result can often be achieved in a much simpler way. Treadmills work because they promote cardiovascular health while simultaneaously burning calories. But simply going for a jog or jumping rope or doing the boxer's shuffle has this same effect. Except here we are no longer reliant on a large-scale industrial society to produce a complex piece of machinery that is often expensive or hard to access, such as a treadmill. Normal excuses don't work here. Our expectations of what we need to get in a proper workout have drastically lowered making it far more accessible.
+	</p>
+
+	<p>
+	The same is true about lifting weights. Lifting weights build muscle because it follows the basic principle of time under tension. When we put our muscles under tension, they break down and weaken, but when they recover, they come back stronger. Simple bodyweight exercises can accomplish this goal. Your bodyweight combined with gravity creates the tension that acts upon your muscles. This is what happens when we do pushups, dips, or pull ups.
+	</p>
+
+	<p>
+	Now that we understand how and why working out improves our health, we are free to choose the most minimal approach possible, void of the overhead, dependence, and barriers to entry. It's actually really simple. To get in a good workout we need:
+	</p>
+
+	<ol>
+	   <li>Our bodies</li>
+	   <li>Open Space</li>
+	   <li>10 minutes</li>
+	</ol>
+
+	<p>
+	This is such a low baseline that no matter how busy our lives may be, anybody can accomplish this. It's important to have a low barrier of entry to anything we do because often just getting started is the most difficult part. We are now free from the costs and committment of gym membership or workout equipment ownership that were holding us back. If you want to increase your chances of succeeding from here, you can find a workout buddy to hold yourselves accountable, or read more about calistenics and bodyweight exercises as there are a ton of fun and creative exercises out there.
+	</p>
+
+	<p>
+	If you're someone strapped for time, you can even apply this notion of less is more to account for this. Often times workouts that are low duration, but high intesity produce the same or even better results than workouts that are high duration, but low intesity. It is possible to spend less time doing something, but produce more as a result.
+	</p>
+
+	<p>
+	Alternatively, the issue of working out to remain healthy is often one created ourselves because of the lack of mobility we naturally get throughout the day. If were more active in our day-to-day lives, the issue of remaining healthy largely wouldn't exist. In this case, workouts could just be a hobby for some of us because we enjoy it. We wouldn't have the burden of trying to consolidate small blocks of our day to working out just to remain healthy. It would just happen.
+	</p>
+
+	<h2 id="takeaways">Takeaways</h2>
+	<p>
+	I believe this process can be applied to any problem of our lives. Remember:
+	</p>
+
+	<ol>
+	   <li>Be Precise About The Problems You Have</li>
+	   <li>Understand How These Problems Are Solved On A Fundamental Level</li>
+	   <li>Employ The Simplest Solution Possible That Solves The Problem</li>
+	   <li>Consider The Root Cause Of The Problem. It may just be symptom of something else.</li>
+	</ol>
+
+	<p>
+	Using a smaller amount of more valuable things that focus on directly solving a problem or fulfilling a need are often more effective than larger or more complex solutions. This is because many of our problems, in our personal lives at least,  are rather simple, but we tend to overcomplicate them with imaginary constructs about the things we truly need. This same principle can be applied to not only to what we do, but the things we own and the amount and type of information we consume.
+	</p>
+    </html>
   </item>
 </channel>
 
