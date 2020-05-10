@@ -111,6 +111,11 @@ img {
   text-decoration-color: magenta;
 }
 
+.icon {
+    height: 30px;
+    width: 30px;
+}
+
 .link-list {
   list-style-type: none;
   padding-left: 4px;
