@@ -5,9 +5,11 @@ html::-webkit-scrollbar {
   display: none !important;
 }
 
-html,
+html {
+  background-color: #021012 !important;
+}
+
 body {
-  background: #021012 !important;
   font-family: 'OrkneyRegular';
   margin: 1em auto;
   max-width: 40em;
@@ -19,6 +21,7 @@ body {
 
 }
 
+/*
 @keyframes fadein {
 	from { opacity: 0; }
 	to   { opacity: 1; }
@@ -41,6 +44,7 @@ body {
   -o-animation: fadein 0.2s;
   animation: fadein 0.2s;
 }
+*/
 
 header {
   position: absolute;
@@ -60,7 +64,10 @@ nav ul {
   list-style-type: none;
 }
 
-nav li a {
+.nav:hover {
+  color: #021012;
+  background: magenta;
+  cursor: pointer;
 }
 
 a {
@@ -159,28 +166,20 @@ blockquote p a {
   text-decoration-color: magenta;
 }
 
-#fav-tab {
-  background: magenta;
-}
-
-#fav-tab a {
-  color: #021012;
-}
-
-.fav-list {
+.fave-list {
   list-style-type: none;
 }
 
-.fav-list li {
+.fave-list li {
   padding-bottom: 0.5em;
 }
 
-.fav-list li a {
+.fave-list li a {
   color: magenta;
   background: #330033;
 }
 
-.fav-list li a:hover {
+.fave-list li a:hover {
   color: #021012;
   background: magenta;
 }
@@ -200,18 +199,32 @@ content div {
 }
 
 .book-item {
-  margin-bottom: 4em;
+  margin-bottom: 4.5em;
   height: 12em;
 }
 
 .book-item img {
   vertical-align: top;
-  height: 12em;
-  width: 8em;
+  height: 15em;
+  width: 10em;
   position: absolute;
 }
 
 .book-item p {
   vertical-align: top;
-  padding-left: 9em;
+  padding-left: 11em;
 }
+
+.book-title {
+  font-style: italic;
+}
+
+.book-author {
+  line-height: 0;
+  font-weight: bold;
+}
+
+.book-description {
+  padding-top: 0.3em;
+}
+
