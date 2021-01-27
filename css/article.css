@@ -5,8 +5,12 @@ html::-webkit-scrollbar {
   display: none !important;
 }
 
-body {
+html {
   background-color: #000000;
+}
+
+
+body {
   font-family: 'OrkneyRegular';
   margin: 1em auto;
   max-width: 40em;
