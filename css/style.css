@@ -5,16 +5,13 @@ html::-webkit-scrollbar {
   display: none !important;
 }
 
-html {
-  background-color: #021012 !important;
-}
-
 body {
+  background-color: #000000;
   font-family: 'OrkneyRegular';
   margin: 1em auto;
   max-width: 40em;
   padding: 0 0.62em;
-  color: #f8f8ff !important;
+  color: #eeeeee;
   font: 1.2em;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
@@ -66,24 +63,24 @@ nav ul {
 
 .nav:hover {
   color: #021012;
-  background: magenta;
+  background: #892cdc;
   cursor: pointer;
 }
 
 a {
-  color: #f8f8ff;
+  color: #eeeeee;
   margin: 0;
   text-decoration: none;
 }
 
 a:hover {
   color: #021012;
-  background: magenta;
+  background: #892cdc;
 }
 
 h2 {
   text-decoration: underline;
-  text-decoration-color: magenta;
+  text-decoration-color: #892cdc;
 }
 
 h3 {
@@ -120,11 +117,11 @@ ol li {
 .buttons li {
   display: inline-block;
   padding: 5px;
-  border: 2px solid magenta;
+  border: 2px solid #892cdc;
 }
 
 .buttons li:hover {
-  background-color: magenta;
+  background-color: #892cdc;
 }
 
 #center-b {
@@ -140,7 +137,7 @@ ol li {
 
 blockquote {
   background: #F8F8F8;
-  border-left: 10px solid magenta;
+  border-left: 10px solid #892cdc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   align: center;
@@ -163,7 +160,7 @@ blockquote p a {
   margin: 0;
   padding: 0;
   text-decoration: underline;
-  text-decoration-color: magenta;
+  text-decoration-color: #892cdc;
 }
 
 .fave-list {
@@ -175,13 +172,13 @@ blockquote p a {
 }
 
 .fave-list li a {
-  color: magenta;
+  color: #892cdc;
   background: #330033;
 }
 
 .fave-list li a:hover {
   color: #021012;
-  background: magenta;
+  background: #892cdc;
 }
 
 .post {
@@ -193,7 +190,7 @@ content div {
 }
 
 .date {
-  color: magenta;
+  color: #892cdc;
   background: #330033;
   float: right;
 }
