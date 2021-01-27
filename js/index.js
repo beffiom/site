@@ -1,4 +1,4 @@
-var time = 80;
+var time = 200;
 
 $(document).ready(function () {
 
