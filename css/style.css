@@ -66,7 +66,7 @@ nav ul {
 
 .nav:hover {
   color: #021012;
-  background: #892cdc;
+  background: magenta;
   cursor: pointer;
 }
 
@@ -78,12 +78,12 @@ a {
 
 a:hover {
   color: #021012;
-  background: #892cdc;
+  background: magenta;
 }
 
 h2 {
   text-decoration: underline;
-  text-decoration-color: #892cdc;
+  text-decoration-color: magenta;
 }
 
 h3 {
@@ -120,11 +120,11 @@ ol li {
 .buttons li {
   display: inline-block;
   padding: 5px;
-  border: 2px solid #892cdc;
+  border: 2px solid magenta;
 }
 
 .buttons li:hover {
-  background-color: #892cdc;
+  background-color: magenta;
 }
 
 #center-b {
@@ -140,7 +140,7 @@ ol li {
 
 blockquote {
   background: #F8F8F8;
-  border-left: 10px solid #892cdc;
+  border-left: 10px solid magenta;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   align: center;
@@ -163,7 +163,7 @@ blockquote p a {
   margin: 0;
   padding: 0;
   text-decoration: underline;
-  text-decoration-color: #892cdc;
+  text-decoration-color: magenta;
 }
 
 .fave-list {
@@ -175,13 +175,13 @@ blockquote p a {
 }
 
 .fave-list li a {
-  color: #892cdc;
+  color: magenta;
   background: #330033;
 }
 
 .fave-list li a:hover {
   color: #021012;
-  background: #892cdc;
+  background: magenta;
 }
 
 .post {
@@ -193,7 +193,7 @@ content div {
 }
 
 .date {
-  color: #892cdc;
+  color: magenta;
   background: #330033;
   float: right;
 }
