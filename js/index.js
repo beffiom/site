@@ -8,18 +8,18 @@ $(document).ready(function () {
 
     // Navigation Button Behavior
     $("#blog-button").on("click", function () {
-        $("body").fadeOut(time, function() {
+        $("content").fadeOut(time, function() {
 
             $("#blog-section").show();
             $("#faves-section").hide();
             $("#about-section").hide();
 
-            $("body").fadeIn(time);
+            $("content").fadeIn(time);
         })
     })
 
     $("#faves-button").on("click", function () {
-        $("body").fadeOut(time, function() {
+        $("content").fadeOut(time, function() {
 
             $("#blog-section").hide();
             $("#faves-section").show();
@@ -37,23 +37,23 @@ $(document).ready(function () {
             $("#fave-software-button").css("background", "");
             $("#fave-sofware-button").css("color", "");
 
-            $("body").fadeIn(time);
+            $("content").fadeIn(time);
         })
     })
 
     $("#about-button").on("click", function () {
-        $("body").fadeOut(time, function() {
+        $("content").fadeOut(time, function() {
 
             $("#blog-section").hide();
             $("#faves-section").hide();
             $("#about-section").show();
 
-            $("body").fadeIn(time);
+            $("content").fadeIn(time);
         })
     })
 
     $("#fave-books-button").on("click", function () {
-        $("body").fadeOut(time, function() {
+        $("content").fadeOut(time, function() {
 
             $("#fave-books-section").show();
             $("#fave-sites-section").hide();
@@ -68,12 +68,12 @@ $(document).ready(function () {
             $("#fave-software-button").css("background", "");
             $("#fave-sofware-button").css("color", "");
 
-            $("body").fadeIn(time);
+            $("content").fadeIn(time);
         })
     })
 
     $("#fave-sites-button").on("click", function () {
-        $("body").fadeOut(time, function() {
+        $("content").fadeOut(time, function() {
 
             $("#fave-books-section").hide();
             $("#fave-sites-section").show();
@@ -88,11 +88,11 @@ $(document).ready(function () {
             $("#fave-software-button").css("background", "");
             $("#fave-sofware-button").css("color", "");
     })
-            $("body").fadeIn(time);
+            $("content").fadeIn(time);
         })
 
     $("#fave-software-button").on("click", function () {
-        $("body").fadeOut(time, function() {
+        $("content").fadeOut(time, function() {
 
             $("#fave-books-section").hide();
             $("#fave-sites-section").hide();
@@ -107,7 +107,7 @@ $(document).ready(function () {
             $("#fave-software-button").css("background", "magenta");
             $("#fave-software-button").css("color", "#021012");
 
-            $("body").fadeIn(time);
+            $("content").fadeIn(time);
         })
     })
 });
