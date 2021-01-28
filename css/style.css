@@ -15,7 +15,7 @@ body {
   max-width: 40em;
   padding: 0 0.62em;
   color: #eeeeee;
-  font: 1.2em;
+  font: 1.4em;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 
@@ -45,21 +45,22 @@ body {
 }
 
 header {
-  position: absolute;
-  left: 50%;
-  transform: translate(-70%, -0%);
-  font-size: 4em;
+  font-size: 6em;
+  text-align: center;
 }
 
 nav {
-  margin-bottom: 2.5em;
-  list-style-type: none;
-  text-align: center;
-  margin-left: 15em;
 }
 
 nav ul {
-  list-style-type: none;
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  font-size: 1.5em;
 }
 
 .nav:hover {
@@ -100,8 +101,8 @@ ol li {
 }
 
 #bottom-image {
-  width : 100%;
-  bottom: 0.5%;
+  width: 100%;
+  border-radius: 20px;
 }
 
 #title {
