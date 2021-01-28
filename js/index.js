@@ -25,6 +25,7 @@ $(document).ready(function () {
             $("#faves-section").show();
             $("#about-section").hide();
 
+            $("#fave-books-section").show();
             $("#fave-sites-section").hide();
             $("#fave-software-section").hide();
 
