@@ -102,8 +102,7 @@ ol li {
 #bottom-image {
   width : 100%;
   position: fixed;
-  bottom: 0px;
-  left: 50%;
+  bottom: 0.5%;
 }
 
 #title {
