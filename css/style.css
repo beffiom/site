@@ -55,7 +55,7 @@ nav ul {
 
 nav ul li {
   display: inline;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .nav:hover {
@@ -98,6 +98,14 @@ ol li {
 #bottom-image {
   width: 100%;
   border-radius: 20px;
+}
+
+#rss {
+  max-width: 40em;
+  width: 91%;
+  position: fixed;
+  bottom: 2%;
+  text-align: center;
 }
 
 #title {
