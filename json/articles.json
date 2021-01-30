@@ -1,0 +1,29 @@
+{
+    "articles": [
+
+      {
+          "title": "internet privacy + security!",
+          "date": "18.03.2020",
+          "link": "blog/online-privacy-guide.html"
+      },
+
+      {
+          "title": "blockchain &amp; the open web",
+          "date": "26.12.2019",
+          "link": "blog/blockchain-and-open-web.html"
+      },
+
+      {
+          "title": "social media bad",
+          "date": "22.12.2019",
+          "link": "blog/social-media-bad.html"
+      },
+
+      {
+          "title": "less can be more",
+          "date": "16.11.2019",
+          "link": "blog/less-can-be-more.html"
+      }
+
+    ]
+}

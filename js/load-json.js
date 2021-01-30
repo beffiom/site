@@ -1,6 +1,32 @@
 $(document).ready(function(){
+    loadArticles();
     loadBooks();
 });
+
+function loadArticles() {
+     $.getJSON('https://beffiom.tech/json/articles.json', function(json) {
+         var articles = json.articles;
+
+         $.each(articles, function(key, val) {
+
+             // Create New Article
+             var html = '<br><div>';
+
+             // Add Article Title
+             html += '<span class="post"><a href="' + val.link + '">' + val.title + '</a></span>';
+
+             // Add Article Date
+             html += '<span class="date">' + val.date + '</span>';
+
+             // Append Article to Blog Section
+             html += '</div>';
+             $('#blog-section').append(html);
+         })
+
+     }).fail(function(){
+         alert('Error getting books.');
+     });
+}
 
 
 function loadBooks() {
@@ -23,7 +49,7 @@ function loadBooks() {
              // Add Book Description
              html += '<p class="book-description">' + val.description + '</p>';
 
-             // Append HTML to Book Item
+             // Append Book Item to Fave Books Section
              html += '</div>';
              $('#fave-books-section').append(html);
          })
