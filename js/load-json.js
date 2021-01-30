@@ -20,7 +20,7 @@ function loadArticles() {
 
              // Append Article to Blog Section
              html += '</div>';
-             $('#blog-section').append(html);
+             $('#blog-posts-section').append(html);
          })
 
      }).fail(function(){
