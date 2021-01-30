@@ -188,7 +188,7 @@ blockquote p a {
   background: magenta;
 }
 
-.post {
+.article-title {
   float: left;
 }
 
@@ -196,7 +196,7 @@ content div {
   padding-bottom: 0.5em;
 }
 
-.date {
+.article-date {
   color: magenta;
   background: #330033;
   float: right;

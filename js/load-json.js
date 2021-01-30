@@ -13,14 +13,14 @@ function loadArticles() {
              var html = '<br><div>';
 
              // Add Article Title
-             html += '<span class="post"><a href="' + val.link + '">' + val.title + '</a></span>';
+             html += '<span class="article-title"><a href="' + val.link + '">' + val.title + '</a></span>';
 
              // Add Article Date
-             html += '<span class="date">' + val.date + '</span>';
+             html += '<span class="article-date">' + val.date + '</span>';
 
              // Append Article to Blog Section
              html += '</div>';
-             $('#blog-posts-section').append(html);
+             $('#blog-articles-section').append(html);
          })
 
      }).fail(function(){
