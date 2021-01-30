@@ -1,0 +1,37 @@
+{
+   "books": [
+
+      {
+         "title": "goodbye,things",
+         "author": "Fumio Sasaki",
+         "description": "An easy read and a great introduction into the philosophies of minimalism and simple living.",
+         "image": "img/faves/books/sasaki_goodbye_things.jpg",
+         "link": "https://www.goodreads.com/book/show/30231806-goodbye-things"
+      },
+
+      {
+         "title": "The Ancient Art of Stoic Joy",
+         "author": "William B. Irvine",
+         "description": "Does your philosophy of life guide you in achieving tranquility&mdash;a state marked by the absence of negative emotion. Wait, you do have a philosophy of life, right?",
+         "image": "img/faves/books/irvine_stoic_joy.jpg",
+         "link": "https://www.goodreads.com/book/show/5617966-a-guide-to-the-good-life"
+      },
+
+      {
+         "title": "Digital Minimalism",
+         "author": "Cal Newport",
+         "description": "A guide into the forces that shape the internet, mainly the Digital Attention Economy. Also contains helpful tips about dealing with information overload and economizing tech usage.",
+         "image": "img/faves/books/newport_digital_minimalism.jpg",
+         "link": "https://www.goodreads.com/book/show/40672036-digital-minimalism"
+      },
+
+      {
+         "title": "How Not To Die",
+         "author": "Dr. Michael Greger",
+         "description": "An evidence-based argument about the role that diet and lifestyle play in the development, reversal, or prevention of all-cause mortality and chronic disease.",
+         "image": "img/faves/books/greger_how_not_to_die.jpg",
+         "link": "https://www.goodreads.com/book/show/25663961-how-not-to-die"
+      }
+
+   ]
+}
