@@ -315,8 +315,13 @@ content div {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   /* For mobile phones: */
+  .anime-item img {
+    height: 15em;
+    width: 10em;
+    padding-left: 0.5em !important;
+  }
 
   #anime-stats,
   #manga-stats {
@@ -330,8 +335,8 @@ content div {
 
   .anime-name,
   .anime-year {
-    font-size: 1.1em !important;
-    padding-right: 16em;
+    font-size: 1em !important;
+    padding-right: 17em;
     max-width: 5000px;
   }
 
@@ -340,6 +345,7 @@ content div {
   }
 
   .anime-score {
+    font-size: 6em;
     font-size: 6.6em !important;
     padding-left: 0.45em;
   }
