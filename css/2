@@ -206,7 +206,6 @@ content div {
   margin-bottom: 4.5em;
   height: 12em;
 }
-
 .anime-item {
   text-align: center;
   margin-bottom: 4.5em;
@@ -254,7 +253,7 @@ content div {
   font-size: 0.8em !important;
   padding-bottom: 0;
   margin-bottom: 0;
-  padding-left: 6.75em !important;
+  padding-left: 7em !important;
 }
 
 .book-author,
@@ -294,19 +293,14 @@ content div {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-
-  .anime-item {
-    margin-bottom: 5em;
-    height: 14em;
-  }
-
   .anime-item p {
+    font-size: 1.1em;
     padding-top: 0.72em;
     padding-right: 16em;
   }
   .anime-name,
   .anime-year {
-    padding-left: 1.25em;
+    padding-left: 0.15em;
   }
 
   .anime-progress {
@@ -315,7 +309,6 @@ content div {
     margin-bottom: 0;
     padding-left: 0em !important;
   }
-
   .anime-score {
 
     font-size: 6.6em !important;
