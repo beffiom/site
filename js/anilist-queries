@@ -1,0 +1,71 @@
+query {
+  User (id: 834276) {
+    statistics {
+        anime {
+            count
+            episodesWatched
+            minutesWatched
+            meanScore
+        }
+        manga {
+            count
+            chaptersRead
+            meanScore
+        }
+    }
+  }
+}
+
+query {
+    MediaListCollection (userId: 834276, type: ANIME) {
+        lists {
+            name
+            entries {
+                score
+                progress
+                media {
+                    title {
+                        romaji
+                        english
+                    }
+                    episodes
+                    startDate {
+                        year
+                    }
+                    coverImage {
+                        medium
+                    }
+                    meanScore
+                    siteUrl
+                }
+            }
+        }
+    }
+}
+
+query {
+    MediaListCollection (userId: 834276, type: MANGA) {
+        lists {
+            name
+            entries {
+                score
+                progress
+                media {
+                    title {
+                        romaji
+                        english
+                    }
+                    chapters
+                    startDate {
+                        year
+                    }
+                    coverImage {
+                        medium
+                    }
+                    meanScore
+                    siteUrl
+                }
+            }
+        }
+    }
+}
