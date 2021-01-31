@@ -202,9 +202,39 @@ content div {
   float: right;
 }
 
+#anime-stats,
+#manga-stats {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#anime-stats div,
+#manga-stats div {
+  display: inline-block;
+  width: 33%;
+  padding-bottom: 0;
+}
+
+.anime-stat,
+.manga-stat {
+  font-size: 3em !important;
+}
+
+#anime ul,
+#manga ul {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 .book-item {
   margin-bottom: 4.5em;
   height: 12em;
+}
+
+.anime-item {
+  text-align: center;
+  margin-bottom: 5em;
+  height: 16em;
 }
 
 .book-item img {
@@ -214,16 +244,44 @@ content div {
   position: absolute;
 }
 
+.anime-item img {
+  vertical-align: top;
+  height: 18em;
+  width: 12em;
+  position: absolute;
+  padding-left: 1em !important;
+}
+
 .book-item p {
   vertical-align: top;
   padding-left: 11em;
 }
 
-.book-title {
+.anime-item p {
+  font-size: 1.2em;
+  padding-top: 0.72em;
+}
+
+.book-title,
+.anime-name {
   font-style: italic;
 }
 
-.book-author {
+.anime-name,
+.anime-year {
+  padding-left: 4em;
+  max-width: 200px;
+}
+
+.anime-progress {
+  font-size: 0.8em !important;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-right: 22.5em;
+}
+
+.book-author,
+.anime-year {
   line-height: 0;
   font-weight: bold;
 }
@@ -232,3 +290,57 @@ content div {
   padding-top: 0.3em;
 }
 
+.anime-score {
+  font-size: 7.2em !important;
+  padding-top: 0.1em !important;
+  padding-right: 2.5em;
+}
+
+#fave-anime-header {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#fave-anime-header span {
+  padding-left: 1em;
+  padding-right: 1.2em;
+  font-size: 1.2em;
+}
+
+#fave-anime-header span a {
+  border-bottom: 4px solid magenta;
+}
+
+#fave-anime-header span a:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+
+  #anime-stats,
+  #manga-stats {
+    font-size: 1.1em;
+  }
+
+  .anime-stat,
+  .manga-stat {
+    font-size: 2.2em !important;
+  }
+
+  .anime-name,
+  .anime-year {
+    font-size: 1.1em !important;
+    padding-right: 16em;
+    max-width: 5000px;
+  }
+
+  .anime-progress {
+    padding-left: 6em;
+  }
+
+  .anime-score {
+    font-size: 6.6em !important;
+    padding-left: 0.45em;
+  }
+}
