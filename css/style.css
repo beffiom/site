@@ -206,6 +206,11 @@ content div {
   margin-bottom: 4.5em;
   height: 12em;
 }
+.anime-item {
+  text-align:center;
+  margin-bottom: 4.5em;
+  height: 14em;
+}
 
 .anime-item {
   text-align: center;
@@ -221,11 +226,18 @@ content div {
 }
 
 .anime-item img {
+<<<<<<< HEAD
+=======
+  padding-left: 4em;
+>>>>>>> 3929a2a037fd567c600e19e64f250e79f6c479b6
   vertical-align: top;
   height: 15.6em;
   width: 10.2em;
   position: absolute;
+<<<<<<< HEAD
   padding-left: 1em !important;
+=======
+>>>>>>> 3929a2a037fd567c600e19e64f250e79f6c479b6
 }
 
 .book-item p {
@@ -235,9 +247,15 @@ content div {
 
 .anime-item p {
   font-size: 1.2em;
+<<<<<<< HEAD
   padding-top: 0.72em;
   padding-right: 6em;
   max-width: 202px;
+=======
+  text-align: center;
+  padding-top: 0.72em;
+  padding-right: 12em;
+>>>>>>> 3929a2a037fd567c600e19e64f250e79f6c479b6
 }
 
 .book-title,
@@ -245,16 +263,26 @@ content div {
   font-style: italic;
 }
 
+<<<<<<< HEAD
 .anime-name,
 .anime-year {
   padding-left: 4.5em;
+=======
+.anime-name {
+  padding-left: 4.5em !important;
+  max-width: 12em;
+>>>>>>> 3929a2a037fd567c600e19e64f250e79f6c479b6
 }
 
 .anime-progress {
   font-size: 0.8em !important;
   padding-bottom: 0;
   margin-bottom: 0;
+<<<<<<< HEAD
   padding-left: 6.75em !important;
+=======
+  padding-right: 18em !important;
+>>>>>>> 3929a2a037fd567c600e19e64f250e79f6c479b6
 }
 
 .book-author,
@@ -268,9 +296,15 @@ content div {
 }
 
 .anime-score {
+<<<<<<< HEAD
   font-size: 6.6em !important;
   padding-top: 0.1em !important;
   padding-left: 1.5em !important;
+=======
+  font-size: 7.2em !important;
+  padding-top: 0.2em !important;
+  padding-right: 2em !important;
+>>>>>>> 3929a2a037fd567c600e19e64f250e79f6c479b6
 }
 
 #fave-anime-header {
@@ -291,6 +325,7 @@ content div {
 #fave-anime-header span a:hover {
   cursor: pointer;
 }
+<<<<<<< HEAD
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
@@ -324,3 +359,5 @@ content div {
   }
 
 }
+=======
+>>>>>>> 3929a2a037fd567c600e19e64f250e79f6c479b6

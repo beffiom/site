@@ -96,7 +96,10 @@ $(document).ready(function () {
             $("#anime").show();
             $("#manga").hide();
 
+<<<<<<< HEAD
             $("#watching-anime").show();
+=======
+>>>>>>> 3929a2a037fd567c600e19e64f250e79f6c479b6
             $("#completed-anime").hide();
             $("#paused-anime").hide();
             $("#dropped-anime").hide();
@@ -116,6 +119,7 @@ $(document).ready(function () {
             $("#fave-software-button").css("background", "");
             $("#fave-sofware-button").css("color", "");
 
+<<<<<<< HEAD
             $("#watching-anime-button").css("background", "magenta");
             $("#watching-anime-button").css("color", "#021012");
 
@@ -128,6 +132,8 @@ $(document).ready(function () {
             $("#dropped-anime-button").css("background", "");
             $("#dropped-manga-button").css("color", "");
 
+=======
+>>>>>>> 3929a2a037fd567c600e19e64f250e79f6c479b6
             $("#faves").fadeIn(time);
         })
     })
@@ -188,7 +194,10 @@ $(document).ready(function () {
             $("#anime").show();
             $("#manga").hide();
 
+<<<<<<< HEAD
             $("#watching-anime").show();
+=======
+>>>>>>> 3929a2a037fd567c600e19e64f250e79f6c479b6
             $("#completed-anime").hide();
             $("#paused-anime").hide();
             $("#dropped-anime").hide();
@@ -196,6 +205,7 @@ $(document).ready(function () {
             $("#watching-anime-button").css("background", "magenta");
             $("#watching-anime-button").css("color", "#021012");
 
+<<<<<<< HEAD
             $("#completed-anime-button").css("background", "");
             $("#completed-anime-button").css("color", "");
 
@@ -205,6 +215,8 @@ $(document).ready(function () {
             $("#dropped-anime-button").css("background", "");
             $("#dropped-manga-button").css("color", "");
 
+=======
+>>>>>>> 3929a2a037fd567c600e19e64f250e79f6c479b6
             $("#anime-list").fadeIn(time);
         })
     })
@@ -222,6 +234,7 @@ $(document).ready(function () {
             $("#reading-manga-button").css("background", "magenta");
             $("#reading-manga-button").css("color", "#021012");
 
+<<<<<<< HEAD
             $("#completed-manga-button").css("background", "");
             $("#completed-manga-button").css("color", "");
 
@@ -232,6 +245,8 @@ $(document).ready(function () {
             $("#dropped-manga-button").css("color", "");
 
 
+=======
+>>>>>>> 3929a2a037fd567c600e19e64f250e79f6c479b6
             $("#anime-list").fadeIn(time);
         })
     })
