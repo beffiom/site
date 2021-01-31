@@ -206,6 +206,11 @@ content div {
   margin-bottom: 4.5em;
   height: 12em;
 }
+.anime-item {
+  text-align:center;
+  margin-bottom: 4.5em;
+  height: 14em;
+}
 
 .book-item img {
   vertical-align: top;
@@ -214,16 +219,45 @@ content div {
   position: absolute;
 }
 
+.anime-item img {
+  padding-left: 4em;
+  vertical-align: top;
+  height: 15.6em;
+  width: 10.2em;
+  position: absolute;
+}
+
 .book-item p {
   vertical-align: top;
   padding-left: 11em;
 }
 
-.book-title {
+.anime-item p {
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 0.72em;
+  padding-right: 12em;
+}
+
+.book-title,
+.anime-name {
   font-style: italic;
 }
 
-.book-author {
+.anime-name {
+  padding-left: 4.5em !important;
+  max-width: 12em;
+}
+
+.anime-progress {
+  font-size: 0.8em !important;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-right: 18em !important;
+}
+
+.book-author,
+.anime-year {
   line-height: 0;
   font-weight: bold;
 }
@@ -232,3 +266,27 @@ content div {
   padding-top: 0.3em;
 }
 
+.anime-score {
+  font-size: 7.2em !important;
+  padding-top: 0.2em !important;
+  padding-right: 2em !important;
+}
+
+#fave-anime-header {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#fave-anime-header span {
+  padding-left: 1em;
+  padding-right: 1.2em;
+  font-size: 1.2em;
+}
+
+#fave-anime-header span a {
+  border-bottom: 4px solid magenta;
+}
+
+#fave-anime-header span a:hover {
+  cursor: pointer;
+}

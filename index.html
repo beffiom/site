@@ -22,7 +22,8 @@
         </ul>
    </nav>
 
-   <content id="main">
+   <div id="main">
+   <content>
         <section id="blog-section">
              <img id="banner-image" src="img/perfection.png" alt="perfection"/>
              <br>
@@ -38,13 +39,58 @@
         <section id="faves-section">
            <ul class="buttons" id="center-b">
                <li id="fave-books-button"><a class="nav">books</a></li>
+               <li id="fave-anime-button"><a class="nav">anime</a></li>
                <li id="fave-software-button"><a class="nav">software</a></li>
                <li id="fave-sites-button"><a class="nav">sites</a></li>
            </ul>
 
            <br><br>
 
+           <div id="faves">
            <section id="fave-books-section"></section>
+
+           <section id="fave-anime-section">
+
+               <section id="fave-anime-header">
+                   <span><a id="anime-button">Anime</a></span>
+                   <span><a id="manga-button">Manga</a></span>
+               </section>
+
+               <div id="anime-list">
+                   <section id="anime">
+                       <ul class="buttons" id="center-b">
+                           <li id="watching-anime-button"><a class="nav">watching</a></li>
+                           <li id="completed-anime-button"><a class="nav">completed</a></li>
+                           <li id="paused-anime-button"><a class="nav">paused</a></li>
+                           <li id="dropped-anime-button"><a class="nav">dropped</a></li>
+                       </ul>
+
+                       <div id="anime-lists">
+                           <section id="watching-anime"></section>
+                           <section id="completed-anime"></section>
+                           <section id="paused-anime"></section>
+                           <section id="dropped-anime"></section>
+                       </div>
+
+                   </section>
+                   <section id="manga">
+                       <ul class="buttons" id="center-b">
+                           <li id="reading-manga-button"><a class="nav">reading</a></li>
+                           <li id="completed-manga-button"><a class="nav">completed</a></li>
+                           <li id="paused-manga-button"><a class="nav">paused</a></li>
+                           <li id="dropped-manga-button"><a class="nav">dropped</a></li>
+                       </ul>
+
+                       <div id="manga-lists">
+                           <section id="reading-manga"></section>
+                           <section id="completed-manga"></section>
+                           <section id="paused-manga"></section>
+                           <section id="dropped-manga"></section>
+                       </div>
+
+                   </section>
+               </div>
+           </section>
 
            <section id="fave-sites-section">
                <h3>blogs</h3>
@@ -112,6 +158,7 @@ for             Android</li>
                     <li>proprietary software in general</li>
                 </ul>
             </section>
+           </div>
         </section>
 
         <section id="about-section">
@@ -148,6 +195,7 @@ for             Android</li>
         </section>
         <br>
    </content>
+   </div>
 
    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <script type="text/javascript" src="js/load-json.js"></script>
