@@ -215,7 +215,7 @@ $(document).ready(function () {
             $("#anime").hide();
             $("#manga").show();
 
-            $("#watching-manga").show();
+            $("#reading-manga").show();
             $("#completed-manga").hide();
             $("#paused-manga").hide();
             $("#dropped-manga").hide();
