@@ -476,6 +476,8 @@ function handleData(data) {
 }
 
 function handleError(error) {
-    alert('Error, check console');
+    alert('Error connecting to https://anilist.co. Could not retrieve anime list.');
     console.error(error);
+    var html = '<p>Unable to connect to <a href="https://anilist.co">anilist.co</a> server. Please try again later</p>';
+    $('#fave-anime-section').append(html);
 }
