@@ -206,10 +206,10 @@ function loadAnime() {
         .then(handleData)
         .then(function(json) {
 
-            const watchingAnimeList = json.data.MediaListCollection.lists[1].entries;
-            const completedAnimeList = json.data.MediaListCollection.lists[0].entries;
-            const pausedAnimeList = json.data.MediaListCollection.lists[3].entries;
-            const droppedAnimeList = json.data.MediaListCollection.lists[2].entries;
+            const watchingAnimeList = json.data.MediaListCollection.lists[json.data.MediaListCollection.lists.findIndex(obj => obj.name=="Watching")].entries;
+            const completedAnimeList = json.data.MediaListCollection.lists[json.data.MediaListCollection.lists.findIndex(obj => obj.name=="Completed")].entries;
+            const pausedAnimeList = json.data.MediaListCollection.lists[json.data.MediaListCollection.lists.findIndex(obj => obj.name=="Paused")].entries;
+            const droppedAnimeList = json.data.MediaListCollection.lists[json.data.MediaListCollection.lists.findIndex(obj => obj.name=="Dropped")].entries;
 
             $.each(watchingAnimeList, function(key, val){
 
@@ -383,8 +383,8 @@ function loadAnime() {
         .then(handleData)
         .then(function(json) {
 
-            const readingMangaList = json.data.MediaListCollection.lists[0].entries;
-            const completedMangaList = json.data.MediaListCollection.lists[1].entries;
+            const readingMangaList = json.data.MediaListCollection.lists[json.data.MediaListCollection.lists.findIndex(obj => obj.name=="Reading")].entries;
+            const completedMangaList = json.data.MediaListCollection.lists[json.data.MediaListCollection.lists.findIndex(obj => obj.name=="Completed")].entries;
 
             $.each(readingMangaList, function(key, val){
 
