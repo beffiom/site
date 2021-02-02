@@ -206,10 +206,10 @@ function loadAnime() {
         .then(handleData)
         .then(function(json) {
 
-            const watchingAnimeList = json.data.MediaListCollection.lists[4].entries;
+            const watchingAnimeList = json.data.MediaListCollection.lists[1].entries;
             const completedAnimeList = json.data.MediaListCollection.lists[0].entries;
-            const pausedAnimeList = json.data.MediaListCollection.lists[2].entries;
-            const droppedAnimeList = json.data.MediaListCollection.lists[1].entries;
+            const pausedAnimeList = json.data.MediaListCollection.lists[3].entries;
+            const droppedAnimeList = json.data.MediaListCollection.lists[2].entries;
 
             $.each(watchingAnimeList, function(key, val){
 
