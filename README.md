@@ -2,7 +2,7 @@
 
 read my blog and see my favorite books, anime, software, and books
 
-hosted at: https://beffiom.tech
+hosted at: https://beffiom.xyz
 
 ## technologies
 
