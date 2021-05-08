@@ -5,7 +5,7 @@ $(document).ready(function(){
 });
 
 function loadArticles() {
-     $.getJSON('https://beffiom.tech/json/articles.json', function(json) {
+     $.getJSON('https://beffiom.xyz/json/articles.json', function(json) {
          var articles = json.articles;
 
          $.each(articles, function(key, val) {
@@ -31,7 +31,7 @@ function loadArticles() {
 
 
 function loadBooks() {
-     $.getJSON('https://beffiom.tech/json/books.json', function(json) {
+     $.getJSON('https://beffiom.xyz/json/books.json', function(json) {
          var books = json.books;
 
          $.each(books, function(key, val) {
