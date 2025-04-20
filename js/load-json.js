@@ -31,7 +31,7 @@ function loadArticles() {
 
 
 function loadBooks() {
-     $.getJSON('.json/books.json', function(json) {
+     $.getJSON('./json/books.json', function(json) {
          var books = json.books;
 
          $.each(books, function(key, val) {
