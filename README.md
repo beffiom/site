@@ -2,7 +2,7 @@
 
 read my blog and see my favorite books, anime, software, and books
 
-hosted at: beffiom.github.io/site/
+hosted at: [beffiom.github.io/site/](beffiom.github.io/site/)
 
 ## technologies
 
