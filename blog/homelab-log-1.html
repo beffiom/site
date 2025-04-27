@@ -25,7 +25,7 @@
 
     <p>My first impressions are that docker-compose.yml seems extremely straightforward. I specify the image of the service, the port number it will be hosted on, and the volume where its data resides. This approach seems to allow a very clean implementation of the directory structure allowing you some good flexibility with how you want to organize a project. I'm interested to see what mistakes I make and how my directory structure will change in the future. Right now I have what I would consider to be a core docker-compose.yml consisting of the dashboard, monitoring and analytics, port management, and network services like pi-hole and wireguard. Additionally, I have another docker-compose-media.yml which will configure the media services I run like jellyfin, nextcloud, and immich. This compartmentalization of the compose files is nice because from my understanding I can deploy one compose file at a time meaning I can run just the core services if I wanted to. I'm sure that will come in handy. Lastly the data for each of the services is stored neatly under ./volumes/service-name.</p>
 
-    <p>My repo is live here: <a href="https://github.com/beffiom/homelab" target="_blank">Open in New Tab</a>.</p>
+    <p>My repo is live here: <a class="citation" href="https://github.com/beffiom/homelab" target="_blank">https://github.com/beffiom/homelab</a>.</p>
 
     <p>This is also the first time I'm making good use of the git ignore feature so I can avoid commit my media data for jellyfin and immich.</p>
 
