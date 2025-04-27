@@ -6,8 +6,16 @@
   <link>https://beffiom.github.io/site/blog.html</link>
   <description>benjamin effiom</description>
   <item>
+    <title>homelab log #1</title>
+    <link>https://beffiom.github.com/site/blog/homelab-log-1.html</link>
+    <description>
+    <![CDATA[
+        ]]>
+    </description>
+  </item>
+  <item>
     <title>internet privacy and security, explained!</title>
-    <link>https://beffiom.tech/blog/online-privacy-guide.html</link>
+    <link>https://beffiom.github.com/site/blog/online-privacy-guide.html</link>
     <description>
     <![CDATA[
     <h2 id="abstract">Abstract</h2>
@@ -205,7 +213,7 @@
   </item>
   <item>
     <title>blockchain and the open web</title>
-    <link>https://beffiom.tech/blog/blockchain-and-open-web.html</link>
+    <link>https://beffiom.github.com/site/blog/blockchain-and-open-web.html</link>
     <description>
     <![CDATA[
 	<h2 id="introduction">Introduction</h2>
@@ -275,7 +283,7 @@
   </item>
   <item>
     <title>social media bad</title>
-    <link>https://beffiom.tech/site/blog/social-media-bad.html</link>
+    <link>https://beffiom.github.com/site/site/blog/social-media-bad.html</link>
     <description>
     <![CDATA[
 	<h2 id="attention-economy">Introduction</h2>
@@ -558,7 +566,7 @@
   </item>
   <item>
     <title>less can be more</title>
-    <link>https://beffiom.tech/blog/less-can-be-more.html</link>
+    <link>https://beffiom.github.com/site/blog/less-can-be-more.html</link>
     <description>
     <![CDATA[
 	<h2 id="intro">Introduction</h2>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>homelab log #1</title>
+   <link rel="stylesheet" type="text/css" href="../css/article.css">
+
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="technology and its cultural impact">
+   <meta name="keywords" content="Techonology,Cybersecurity,Privacy,Minimalism,Veganism,Free Software">
+   <meta name="author" content="beffiom">
+   <script src="js/background-load.js"></script>
+</head>
+
+<body>
+   <content>
+	<a href='../index.html'>⬅️ return to site</a>
+	<p class="date">April 27, 2025</p>
+
+	<h1>homelab log #1</h1>
+
+    <p>Today, I'm setting up my first homelab and getting my feet wet with docker. LLMs have a been a big help so far, especially perplexity.ai, when getting started. I will, of course do a proper course and deep dive in containers, dockers, and kubernetes, but I wanted to launch first and launch early. I think doing it this way will be a good learning experience because if I can set up and a getting working build, I'll have a solid frame of reference when starting my learning and I can see all the aspects of the technology I was ignorant of when first starting out.</p>
+
+    <p>I also just learned that docker-compose.yml and dockerfiles are not the same thing! From my (albeit very limited understanding), it seems as if a dockerfile refers to the build file for an individual service like jellyfin, nextcloud, and grafana. On the other hand, a docker-compose.yml contains the instructions for deploying a docker network, which services you will use, which port they run off, and which volumes are used to store and access the services data.</p>
+
+    <p>My first impressions are that docker-compose.yml seems extremely straightforward. I specify the image of the service, the port number it will be hosted on, and the volume where its data resides. This approach seems to allow a very clean implementation of the directory structure allowing you some good flexibility with how you want to organize a project. I'm interested to see what mistakes I make and how my directory structure will change in the future. Right now I have what I would consider to be a core docker-compose.yml consisting of the dashboard, monitoring and analytics, port management, and network services like pi-hole and wireguard. Additionally, I have another docker-compose-media.yml which will configure the media services I run like jellyfin, nextcloud, and immich. This compartmentalization of the compose files is nice because from my understanding I can deploy one compose file at a time meaning I can run just the core services if I wanted to. I'm sure that will come in handy. Lastly the data for each of the services is stored neatly under ./volumes/service-name.</p>
+
+    <p>My repo is live here: <a href="https://github.com/beffiom/homelab" target="_blank">Open in New Tab</a>.</p>
+
+    <p>This is also the first time I'm making good use of the git ignore feature so I can avoid commit my media data for jellyfin and immich.</p>
+
+    <p style="padding-top: 0.5em;"><a target="_blank" href="../blog/feed.xml"><img class="icon" src="../img/rss.png" alt="rss"/></a> &nbsp; <a target="_blank" href="https://cybre.space/@beffiom"><img class="icon" src="../img/mastodon.png" alt="mastodon"/></a></p>
+   </content>
+</body>
+</html>
+
