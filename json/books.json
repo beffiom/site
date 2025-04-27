@@ -1,5 +1,28 @@
 {
    "books": [
+      {
+         "title": "The Picture of Dorian Gray",
+         "author": "Oscar Wilde",
+         "description": "A fascinating exploration into the mind of a beautiful, charming, charasmatic, degenerate, narcissistic, sociopath.",
+         "image": "img/faves/books/wilde_dorian_gray.jpg",
+         "link": "https://www.goodreads.com/book/show/489732.The_Picture_of_Dorian_Gray?ref=nav_sb_ss_1_18"
+      },
+
+      {
+         "title": "Meditations",
+         "author": "Marcus Aurelius",
+         "description": "Timeless.",
+         "image": "img/faves/books/aurelius_meditations.jpg",
+         "link": "https://www.goodreads.com/book/show/1168191.Meditations?ref=nav_sb_ss_1_16"
+      },
+
+      {
+         "title": "The Almanack of Naval Ravikant",
+         "author": "Eric Jorgenson",
+         "description": "All of the pithy advice about money, technology, and life from the legendary silicon valley angel investor himself.",
+         "image": "img/faves/books/jorgenson_ravikant.jpg",
+         "link": "https://www.goodreads.com/book/show/54898389-the-almanack-of-naval-ravikant"
+      },
 
       {
          "title": "goodbye,things",
